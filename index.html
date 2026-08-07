@@ -3,52 +3,109 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Entry-Level Remote Tech Jobs</title>
+<title>Remote Tech Jobs</title>
 <style>
   body { font-family: -apple-system, Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 16px; background: #fafafa; color: #1a1a1a; }
   h1 { font-size: 1.6rem; }
-  .sub { color: #666; margin-bottom: 24px; }
+  .sub { color: #666; margin-bottom: 20px; }
+  .controls { background: #fff; border: 1px solid #e2e2e2; border-radius: 8px; padding: 14px; margin-bottom: 16px; }
+  #search { width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; margin-bottom: 10px; }
+  .filter-row { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; }
   .job { background: #fff; border: 1px solid #e2e2e2; border-radius: 8px; padding: 16px; margin-bottom: 12px; }
   .job h3 { margin: 0 0 4px 0; }
   .job a { color: #1a56db; text-decoration: none; }
   .job a:hover { text-decoration: underline; }
   .meta { color: #888; font-size: 0.85rem; margin-top: 6px; }
   .tag { display: inline-block; background: #eef2ff; color: #3730a3; border-radius: 4px; padding: 2px 8px; font-size: 0.75rem; margin-right: 4px; }
-  #status { color: #888; }
+  .badge { display: inline-block; background: #dcfce7; color: #166534; border-radius: 4px; padding: 2px 8px; font-size: 0.7rem; margin-left: 8px; }
+  #status { color: #888; margin-bottom: 10px; }
+  #loadMore { display: block; width: 100%; padding: 12px; margin-top: 10px; background: #1a56db; color: #fff; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer; }
+  #loadMore:disabled { background: #ccc; }
 </style>
 </head>
 <body>
-  <h1>Entry-Level Remote Tech Jobs</h1>
-  <div class="sub">Auto-updated daily. Filtered for junior / entry-level / graduate roles only.</div>
+  <h1>Remote Tech Jobs</h1>
+  <div class="sub">Auto-updated daily from multiple job boards.</div>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search by title, company, or keyword...">
+    <div class="filter-row">
+      <input type="checkbox" id="entryOnly">
+      <label for="entryOnly">Entry-level / junior only</label>
+    </div>
+  </div>
+
   <div id="status">Loading jobs...</div>
   <div id="jobs"></div>
+  <button id="loadMore" onclick="showMore()" style="display:none;">Load more</button>
 
 <script>
+let allJobs = [];
+let filteredJobs = [];
+let shown = 0;
+const PAGE_SIZE = 20;
+
 fetch('jobs.json')
   .then(r => r.json())
   .then(data => {
+    allJobs = data.jobs || [];
     document.getElementById('status').textContent =
-      `${data.count} jobs • updated ${new Date(data.generated_at).toLocaleString()}`;
-    const container = document.getElementById('jobs');
-    data.jobs.forEach(job => {
-      const div = document.createElement('div');
-      div.className = 'job';
-      const tags = (job.tags || []).slice(0, 5).map(t => `<span class="tag">${t}</span>`).join('');
-      div.innerHTML = `
-        <h3><a href="${job.url}" target="_blank" rel="noopener">${job.title}</a></h3>
-        <div>${job.company}</div>
-        <div class="meta">${job.source} • ${job.date_posted || ''}</div>
-        <div style="margin-top:8px;">${tags}</div>
-      `;
-      container.appendChild(div);
-    });
-    if (data.jobs.length === 0) {
-      document.getElementById('status').textContent = 'No jobs found in latest run — check back after the next daily update.';
-    }
+      `${allJobs.length} jobs • updated ${new Date(data.generated_at).toLocaleString()}`;
+    applyFilters();
   })
   .catch(() => {
-    document.getElementById('status').textContent = 'jobs.json not found yet — it appears after the first Actions run.';
+    document.getElementById('status').textContent = 'jobs.json not found yet — check back after the next daily update.';
   });
+
+function applyFilters() {
+  const query = document.getElementById('search').value.toLowerCase().trim();
+  const entryOnly = document.getElementById('entryOnly').checked;
+
+  filteredJobs = allJobs.filter(job => {
+    if (entryOnly && !job.is_entry_level) return false;
+    if (!query) return true;
+    const haystack = `${job.title} ${job.company} ${(job.tags||[]).join(' ')}`.toLowerCase();
+    return haystack.includes(query);
+  });
+
+  shown = 0;
+  document.getElementById('jobs').innerHTML = '';
+  showMore();
+}
+
+function showMore() {
+  const container = document.getElementById('jobs');
+  const slice = filteredJobs.slice(shown, shown + PAGE_SIZE);
+  slice.forEach(job => {
+    const div = document.createElement('div');
+    div.className = 'job';
+    const tags = (job.tags || []).slice(0, 5).map(t => `<span class="tag">${t}</span>`).join('');
+    const badge = job.is_entry_level ? '<span class="badge">Entry-level</span>' : '';
+    div.innerHTML = `
+      <h3><a href="${job.url}" target="_blank" rel="noopener">${job.title}</a>${badge}</h3>
+      <div>${job.company}</div>
+      <div class="meta">${job.source} • ${job.date_posted || ''}</div>
+      <div style="margin-top:8px;">${tags}</div>
+    `;
+    container.appendChild(div);
+  });
+  shown += slice.length;
+
+  const loadMoreBtn = document.getElementById('loadMore');
+  if (shown >= filteredJobs.length) {
+    loadMoreBtn.style.display = 'none';
+  } else {
+    loadMoreBtn.style.display = 'block';
+    loadMoreBtn.textContent = `Load more (${filteredJobs.length - shown} remaining)`;
+  }
+
+  if (filteredJobs.length === 0) {
+    container.innerHTML = '<div style="color:#888;">No jobs match your search.</div>';
+  }
+}
+
+document.getElementById('search').addEventListener('input', applyFilters);
+document.getElementById('entryOnly').addEventListener('change', applyFilters);
 </script>
 </body>
 </html>
