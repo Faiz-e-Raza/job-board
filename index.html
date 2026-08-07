@@ -14,8 +14,8 @@
 
   .filters { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; background: #fff; border: 1px solid #e2e2e2; border-radius: 8px; padding: 12px; margin-bottom: 16px; }
   .filters select, .filters input { width: 100%; padding: 8px; font-size: 0.85rem; border: 1px solid #ccc; border-radius: 6px; }
+  .filters select:disabled { background: #f3f4f6; color: #999; }
   .filters label { font-size: 0.75rem; color: #666; display: block; margin-bottom: 3px; }
-  .checkbox-item { grid-column: span 2; display: flex; align-items: center; gap: 6px; font-size: 0.85rem; }
   #clearFilters { grid-column: span 2; background: #f3f4f6; border: 1px solid #ccc; border-radius: 6px; padding: 8px; font-size: 0.85rem; cursor: pointer; }
 
   #status { color: #666; margin-bottom: 10px; font-size: 0.9rem; }
@@ -42,7 +42,7 @@
 <body>
   <h1>Remote Job Search</h1>
   <div class="sub">Auto-updated daily from multiple job boards.</div>
-  <div class="note">Category and experience level are inferred from the job title/tags (not always provided by the source) — treat as a helpful guide, not a guarantee.</div>
+  <div class="note">Category, experience level, and location are inferred from the job title/tags where the source doesn't provide them directly.</div>
 
   <input type="text" id="search" placeholder="Search by title, company, or keyword...">
 
@@ -61,8 +61,12 @@
       </select>
     </div>
     <div>
-      <label for="locationFilter">Location</label>
-      <select id="locationFilter"><option value="">All locations</option></select>
+      <label for="countryFilter">Country</label>
+      <select id="countryFilter"><option value="">All countries</option></select>
+    </div>
+    <div>
+      <label for="areaFilter">State / City / Area</label>
+      <select id="areaFilter" disabled><option value="">Select a country first</option></select>
     </div>
     <div>
       <label for="currencyFilter">Currency</label>
@@ -100,29 +104,52 @@ fetch('jobs.json')
 
 function populateFilterOptions() {
   const categories = [...new Set(allJobs.map(j => j.category).filter(Boolean))].sort();
-  const locations = [...new Set(allJobs.map(j => j.location).filter(Boolean))].sort();
+  const countries = [...new Set(allJobs.map(j => j.location_country).filter(Boolean))].sort();
   const currencies = [...new Set(allJobs.map(j => j.currency).filter(Boolean))].sort();
 
   const catSel = document.getElementById('categoryFilter');
   categories.forEach(c => catSel.innerHTML += `<option value="${c}">${c}</option>`);
-  const locSel = document.getElementById('locationFilter');
-  locations.forEach(l => locSel.innerHTML += `<option value="${l}">${l}</option>`);
+  const countrySel = document.getElementById('countryFilter');
+  countries.forEach(c => countrySel.innerHTML += `<option value="${c}">${c}</option>`);
   const curSel = document.getElementById('currencyFilter');
   currencies.forEach(c => curSel.innerHTML += `<option value="${c}">${c}</option>`);
+}
+
+function updateAreaOptions() {
+  const country = document.getElementById('countryFilter').value;
+  const areaSel = document.getElementById('areaFilter');
+
+  if (!country) {
+    areaSel.innerHTML = '<option value="">Select a country first</option>';
+    areaSel.disabled = true;
+    return;
+  }
+
+  const areas = [...new Set(
+    allJobs.filter(j => j.location_country === country)
+           .map(j => j.location_area)
+           .filter(a => a && a !== 'Not specified')
+  )].sort();
+
+  areaSel.disabled = false;
+  areaSel.innerHTML = '<option value="">All areas</option>' +
+    areas.map(a => `<option value="${a}">${a}</option>`).join('');
 }
 
 function applyFilters() {
   const query = document.getElementById('search').value.toLowerCase().trim();
   const category = document.getElementById('categoryFilter').value;
   const experience = document.getElementById('experienceFilter').value;
-  const location = document.getElementById('locationFilter').value;
+  const country = document.getElementById('countryFilter').value;
+  const area = document.getElementById('areaFilter').value;
   const currency = document.getElementById('currencyFilter').value;
   const minSalary = parseFloat(document.getElementById('minSalary').value) || null;
 
   filteredJobs = allJobs.filter(job => {
     if (category && job.category !== category) return false;
     if (experience && job.experience_level !== experience) return false;
-    if (location && job.location !== location) return false;
+    if (country && job.location_country !== country) return false;
+    if (area && job.location_area !== area) return false;
     if (currency && job.currency !== currency) return false;
     if (minSalary && (!job.salary_max || job.salary_max < minSalary)) return false;
     if (query) {
@@ -140,9 +167,10 @@ function clearFilters() {
   document.getElementById('search').value = '';
   document.getElementById('categoryFilter').value = '';
   document.getElementById('experienceFilter').value = '';
-  document.getElementById('locationFilter').value = '';
+  document.getElementById('countryFilter').value = '';
   document.getElementById('currencyFilter').value = '';
   document.getElementById('minSalary').value = '';
+  updateAreaOptions();
   applyFilters();
 }
 
@@ -176,6 +204,9 @@ function renderPage() {
       const max = job.salary_max ? job.salary_max.toLocaleString() : '?';
       salaryLine = `<div class="salary">${cur} ${min} - ${max}</div>`;
     }
+    const locationLine = job.location_area && job.location_area !== 'Not specified'
+      ? `${job.location_area}, ${job.location_country}`
+      : job.location_country;
     div.innerHTML = `
       <h3>
         <a href="${job.url}" target="_blank" rel="noopener">${job.title}</a>
@@ -183,7 +214,7 @@ function renderPage() {
         <span class="badge ${experienceBadgeClass(job.experience_level)}">${job.experience_level}</span>
         <span class="badge badge-category">${job.category}</span>
       </h3>
-      <div>${job.company} — ${job.location || 'Remote'}</div>
+      <div>${job.company} — ${locationLine}</div>
       ${salaryLine}
       <div class="meta">${job.source} • ${job.date_posted || ''}</div>
       <div>${tags}</div>
@@ -231,7 +262,8 @@ function renderPagination() {
 document.getElementById('search').addEventListener('input', applyFilters);
 document.getElementById('categoryFilter').addEventListener('change', applyFilters);
 document.getElementById('experienceFilter').addEventListener('change', applyFilters);
-document.getElementById('locationFilter').addEventListener('change', applyFilters);
+document.getElementById('countryFilter').addEventListener('change', () => { updateAreaOptions(); applyFilters(); });
+document.getElementById('areaFilter').addEventListener('change', applyFilters);
 document.getElementById('currencyFilter').addEventListener('change', applyFilters);
 document.getElementById('minSalary').addEventListener('input', applyFilters);
 </script>
