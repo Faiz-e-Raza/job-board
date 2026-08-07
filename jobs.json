@@ -1,16 +1,55 @@
 {
-  "generated_at": "2026-08-07T09:41:36.636992+00:00",
-  "count": 209,
-  "entry_level_count": 34,
+  "generated_at": "2026-08-07T10:00:14.018722+00:00",
+  "count": 213,
   "jobs": [
+    {
+      "source": "RemoteOK",
+      "title": "Wave Chaser",
+      "company": "Skinventory",
+      "url": "https://remoteOK.com/remote-jobs/remote-wave-chaser-skinventory-1136266",
+      "tags": [],
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Oakdale 320, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06T09:48:05+00:00"
+    },
+    {
+      "source": "RemoteOK",
+      "title": "Omega",
+      "company": "Skinventory",
+      "url": "https://remoteOK.com/remote-jobs/remote-omega-skinventory-1136256",
+      "tags": [
+        "testing",
+        "non tech",
+        "education"
+      ],
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Loch Sport, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06T09:43:18+00:00"
+    },
     {
       "source": "RemoteOK",
       "title": "Creating Connections That Inspire Success",
       "company": "Mukti Switzerland",
       "url": "https://remoteOK.com/remote-jobs/remote-creating-connections-that-inspire-success-mukti-switzerland-1136267",
       "tags": [],
-      "date_posted": "2026-08-06T08:58:01+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Success, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06T08:58:01+00:00"
     },
     {
       "source": "RemoteOK",
@@ -23,8 +62,14 @@
         "education",
         "travel"
       ],
-      "date_posted": "2026-08-06T05:58:01+00:00",
-      "is_entry_level": true
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Queensland, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06T05:58:01+00:00"
     },
     {
       "source": "RemoteOK",
@@ -35,8 +80,14 @@
         "education",
         "non tech"
       ],
-      "date_posted": "2026-08-06T01:12:05+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Windsor, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06T01:12:05+00:00"
     },
     {
       "source": "RemoteOK",
@@ -57,8 +108,14 @@
         "legal",
         "medical"
       ],
-      "date_posted": "2026-08-05T23:50:54+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Oistins, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T23:50:54+00:00"
     },
     {
       "source": "RemoteOK",
@@ -79,8 +136,14 @@
         "legal",
         "medical"
       ],
-      "date_posted": "2026-08-05T23:19:41+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "East Grand Bahama, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T23:19:41+00:00"
     },
     {
       "source": "RemoteOK",
@@ -97,8 +160,14 @@
         "vfx",
         "c"
       ],
-      "date_posted": "2026-08-05T19:01:14+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Shijak, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T19:01:14+00:00"
     },
     {
       "source": "RemoteOK",
@@ -115,8 +184,14 @@
         "vfx",
         "c"
       ],
-      "date_posted": "2026-08-05T18:58:48+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Belleek, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T18:58:48+00:00"
     },
     {
       "source": "RemoteOK",
@@ -128,8 +203,14 @@
         "non tech",
         "education"
       ],
-      "date_posted": "2026-08-05T18:07:25+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Melbourne, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T18:07:25+00:00"
     },
     {
       "source": "RemoteOK",
@@ -145,8 +226,14 @@
         "sys admin",
         "vfx"
       ],
-      "date_posted": "2026-08-05T17:32:38+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Test Valley, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T17:32:38+00:00"
     },
     {
       "source": "RemoteOK",
@@ -163,8 +250,14 @@
         "digital nomad",
         "ops"
       ],
-      "date_posted": "2026-08-05T17:25:29+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Division No. 11, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T17:25:29+00:00"
     },
     {
       "source": "RemoteOK",
@@ -174,8 +267,14 @@
       "tags": [
         "exec"
       ],
-      "date_posted": "2026-08-05T17:24:14+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Bhopal, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T17:24:14+00:00"
     },
     {
       "source": "RemoteOK",
@@ -193,8 +292,14 @@
         "ops",
         "architecture"
       ],
-      "date_posted": "2026-08-05T17:17:10+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Bengough 40, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T17:17:10+00:00"
     },
     {
       "source": "RemoteOK",
@@ -225,8 +330,14 @@
         "education",
         "customer support"
       ],
-      "date_posted": "2026-08-05T16:55:43+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Gladstone, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T16:55:43+00:00"
     },
     {
       "source": "RemoteOK",
@@ -255,8 +366,14 @@
         "golang",
         "engineer"
       ],
-      "date_posted": "2026-08-05T16:29:53+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Queensland, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T16:29:53+00:00"
     },
     {
       "source": "RemoteOK",
@@ -269,8 +386,14 @@
         "digital nomad",
         "ruby"
       ],
-      "date_posted": "2026-08-05T16:10:39+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Anupgarh, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T16:10:39+00:00"
     },
     {
       "source": "RemoteOK",
@@ -292,8 +415,14 @@
         "full time",
         "digital nomad"
       ],
-      "date_posted": "2026-08-05T16:00:23+00:00",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location": "Los Angeles",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T16:00:23+00:00"
     },
     {
       "source": "RemoteOK",
@@ -310,8 +439,14 @@
         "vfx",
         "c"
       ],
-      "date_posted": "2026-08-05T15:58:55+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "London, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T15:58:55+00:00"
     },
     {
       "source": "RemoteOK",
@@ -322,8 +457,14 @@
         "testing",
         "non tech"
       ],
-      "date_posted": "2026-08-05T15:54:44+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Foresight, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T15:54:44+00:00"
     },
     {
       "source": "RemoteOK",
@@ -335,8 +476,14 @@
         "non tech",
         "education"
       ],
-      "date_posted": "2026-08-05T15:53:13+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Foresight, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T15:53:13+00:00"
     },
     {
       "source": "RemoteOK",
@@ -378,8 +525,14 @@
         "backend",
         "digital nomad"
       ],
-      "date_posted": "2026-08-05T15:43:23+00:00",
-      "is_entry_level": true
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Fleet, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T15:43:23+00:00"
     },
     {
       "source": "RemoteOK",
@@ -396,8 +549,14 @@
         "medical",
         "ecommerce"
       ],
-      "date_posted": "2026-08-05T15:14:08+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Cooperative Nagar, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T15:14:08+00:00"
     },
     {
       "source": "RemoteOK",
@@ -429,8 +588,14 @@
         "engineer",
         "consulting"
       ],
-      "date_posted": "2026-08-05T15:09:28+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Penryn, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T15:09:28+00:00"
     },
     {
       "source": "RemoteOK",
@@ -441,8 +606,14 @@
         "education",
         "non tech"
       ],
-      "date_posted": "2026-08-05T15:07:10+00:00",
-      "is_entry_level": true
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Middle Claydon, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T15:07:10+00:00"
     },
     {
       "source": "RemoteOK",
@@ -459,8 +630,14 @@
         "medical",
         "ecommerce"
       ],
-      "date_posted": "2026-08-05T15:06:57+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Khajuripada, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T15:06:57+00:00"
     },
     {
       "source": "RemoteOK",
@@ -502,8 +679,14 @@
         "backend",
         "digital nomad"
       ],
-      "date_posted": "2026-08-05T14:29:44+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Full Sutton, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T14:29:44+00:00"
     },
     {
       "source": "RemoteOK",
@@ -517,8 +700,14 @@
         "exec",
         "saas"
       ],
-      "date_posted": "2026-08-05T14:29:29+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Full Sutton, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T14:29:29+00:00"
     },
     {
       "source": "RemoteOK",
@@ -554,8 +743,14 @@
         "senior",
         "golang"
       ],
-      "date_posted": "2026-08-05T14:27:40+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Ottawa, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T14:27:40+00:00"
     },
     {
       "source": "RemoteOK",
@@ -563,8 +758,14 @@
       "company": "SimpleTech.AI",
       "url": "https://remoteOK.com/remote-jobs/remote-adflow-simpletech-ai-1136237",
       "tags": [],
-      "date_posted": "2026-08-05T14:03:34+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Indiana, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T14:03:34+00:00"
     },
     {
       "source": "RemoteOK",
@@ -572,8 +773,14 @@
       "company": "SimpleTech.AI",
       "url": "https://remoteOK.com/remote-jobs/remote-news-simpletech-ai-1136236",
       "tags": [],
-      "date_posted": "2026-08-05T14:03:22+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Newport News, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T14:03:22+00:00"
     },
     {
       "source": "RemoteOK",
@@ -609,8 +816,14 @@
         "senior",
         "golang"
       ],
-      "date_posted": "2026-08-05T13:57:50+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Mankota 45, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T13:57:50+00:00"
     },
     {
       "source": "RemoteOK",
@@ -627,8 +840,14 @@
         "medical",
         "ecommerce"
       ],
-      "date_posted": "2026-08-05T13:48:34+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Sardhana, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T13:48:34+00:00"
     },
     {
       "source": "RemoteOK",
@@ -636,8 +855,14 @@
       "company": "Memento AI",
       "url": "https://remoteOK.com/remote-jobs/remote-build-with-us-memento-ai-1136238",
       "tags": [],
-      "date_posted": "2026-08-05T13:36:35+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Hagerstown, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T13:36:35+00:00"
     },
     {
       "source": "RemoteOK",
@@ -645,8 +870,14 @@
       "company": "iOpener.Today",
       "url": "https://remoteOK.com/remote-jobs/remote-dont-miss-the-stitch-time-iopener-today-1136281",
       "tags": [],
-      "date_posted": "2026-08-05T13:24:47+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Marwar Junction, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T13:24:47+00:00"
     },
     {
       "source": "RemoteOK",
@@ -688,8 +919,14 @@
         "excel",
         "legal"
       ],
-      "date_posted": "2026-08-05T13:13:07+00:00",
-      "is_entry_level": true
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "New York, New York, New York, United States",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T13:13:07+00:00"
     },
     {
       "source": "RemoteOK",
@@ -701,8 +938,14 @@
         "exec",
         "digital nomad"
       ],
-      "date_posted": "2026-08-05T12:26:06+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Anupgarh, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T12:26:06+00:00"
     },
     {
       "source": "RemoteOK",
@@ -738,8 +981,14 @@
         "senior",
         "golang"
       ],
-      "date_posted": "2026-08-05T12:24:31+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Enterprise, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T12:24:31+00:00"
     },
     {
       "source": "RemoteOK",
@@ -751,8 +1000,14 @@
         "exec",
         "digital nomad"
       ],
-      "date_posted": "2026-08-05T11:51:01+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Roorkee, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T11:51:01+00:00"
     },
     {
       "source": "RemoteOK",
@@ -797,8 +1052,14 @@
         "travel",
         "education"
       ],
-      "date_posted": "2026-08-05T11:45:49+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Bengaluru, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T11:45:49+00:00"
     },
     {
       "source": "RemoteOK",
@@ -811,8 +1072,14 @@
         "non tech",
         "digital nomad"
       ],
-      "date_posted": "2026-08-05T11:38:20+00:00",
-      "is_entry_level": false
+      "category": "Human Resources",
+      "experience_level": "Mid",
+      "location": "Posts, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T11:38:20+00:00"
     },
     {
       "source": "RemoteOK",
@@ -829,8 +1096,14 @@
         "full time",
         "digital nomad"
       ],
-      "date_posted": "2026-08-05T11:17:03+00:00",
-      "is_entry_level": true
+      "category": "Marketing",
+      "experience_level": "Senior",
+      "location": "Toronto, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T11:17:03+00:00"
     },
     {
       "source": "RemoteOK",
@@ -842,8 +1115,14 @@
         "non tech",
         "finance"
       ],
-      "date_posted": "2026-08-05T11:14:43+00:00",
-      "is_entry_level": true
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Bournemouth, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T11:14:43+00:00"
     },
     {
       "source": "RemoteOK",
@@ -865,8 +1144,14 @@
         "medical",
         "mobile"
       ],
-      "date_posted": "2026-08-05T11:07:54+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Open Hall, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T11:07:54+00:00"
     },
     {
       "source": "RemoteOK",
@@ -874,8 +1159,14 @@
       "company": "Skinventory",
       "url": "https://remoteOK.com/remote-jobs/remote-fuel-injector-skinventory-1136239",
       "tags": [],
-      "date_posted": "2026-08-05T11:07:50+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Anchorage Borough County, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T11:07:50+00:00"
     },
     {
       "source": "RemoteOK",
@@ -892,8 +1183,14 @@
         "medical",
         "ecommerce"
       ],
-      "date_posted": "2026-08-05T11:07:30+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Indus, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T11:07:30+00:00"
     },
     {
       "source": "RemoteOK",
@@ -905,8 +1202,14 @@
         "non tech",
         "education"
       ],
-      "date_posted": "2026-08-05T11:05:23+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Loch Sport, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T11:05:23+00:00"
     },
     {
       "source": "RemoteOK",
@@ -920,8 +1223,14 @@
         "digital nomad",
         "customer support"
       ],
-      "date_posted": "2026-08-05T10:59:55+00:00",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "New York City Metropolitan Area, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:59:55+00:00"
     },
     {
       "source": "RemoteOK",
@@ -958,8 +1267,14 @@
         "golang",
         "ads"
       ],
-      "date_posted": "2026-08-05T10:55:32+00:00",
-      "is_entry_level": true
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Gurgaon, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:55:32+00:00"
     },
     {
       "source": "RemoteOK",
@@ -972,8 +1287,14 @@
         "non tech",
         "digital nomad"
       ],
-      "date_posted": "2026-08-05T10:51:09+00:00",
-      "is_entry_level": false
+      "category": "Human Resources",
+      "experience_level": "Mid",
+      "location": "Evansville, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:51:09+00:00"
     },
     {
       "source": "RemoteOK",
@@ -990,8 +1311,14 @@
         "medical",
         "ecommerce"
       ],
-      "date_posted": "2026-08-05T10:51:04+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "ÙØ¹Ø§Ù, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:51:04+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1003,8 +1330,14 @@
         "non tech",
         "education"
       ],
-      "date_posted": "2026-08-05T10:33:27+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Greater Sydney Area, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:33:27+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1012,8 +1345,14 @@
       "company": "LookNet",
       "url": "https://remoteOK.com/remote-jobs/remote-if-you-are-looking-for-a-employment-job-looknet-1136166",
       "tags": [],
-      "date_posted": "2026-08-05T10:33:22+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Rochester, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:33:22+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1025,8 +1364,14 @@
         "exec",
         "digital nomad"
       ],
-      "date_posted": "2026-08-05T10:24:14+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Roorkee, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:24:14+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1054,8 +1399,14 @@
         "engineer",
         "digital nomad"
       ],
-      "date_posted": "2026-08-05T10:17:00+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Heartâs Content, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:17:00+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1093,8 +1444,14 @@
         "ecommerce",
         "internship"
       ],
-      "date_posted": "2026-08-05T10:10:34+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Laredo, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:10:34+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1106,8 +1463,14 @@
         "non tech",
         "education"
       ],
-      "date_posted": "2026-08-05T10:09:50+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "The Risk, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:09:50+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1119,8 +1482,14 @@
         "non tech",
         "education"
       ],
-      "date_posted": "2026-08-05T10:09:42+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "The Risk, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:09:42+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1128,8 +1497,14 @@
       "company": "COLDOUTREACH.BLOG",
       "url": "https://remoteOK.com/remote-jobs/remote-commenting-before-dming-is-it-worth-it-coldoutreach-blog-1136164",
       "tags": [],
-      "date_posted": "2026-08-05T10:09:22+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Content, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:09:22+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1137,8 +1512,14 @@
       "company": "COLDOUTREACH.BLOG",
       "url": "https://remoteOK.com/remote-jobs/remote-when-posts-and-dms-reinforce-each-other-coldoutreach-blog-1136163",
       "tags": [],
-      "date_posted": "2026-08-05T10:08:45+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Content, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T10:08:45+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1146,8 +1527,14 @@
       "company": "Eterniseed",
       "url": "https://remoteOK.com/remote-jobs/remote-joel-eterniseed-1136253",
       "tags": [],
-      "date_posted": "2026-08-05T09:39:40+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Joel Joel, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T09:39:40+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1165,8 +1552,14 @@
         "golang",
         "web dev"
       ],
-      "date_posted": "2026-08-05T08:36:49+00:00",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "Amet, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T08:36:49+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1183,8 +1576,14 @@
         "medical",
         "ecommerce"
       ],
-      "date_posted": "2026-08-05T08:33:07+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Tiruppur, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T08:33:07+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1202,8 +1601,14 @@
         "golang",
         "web dev"
       ],
-      "date_posted": "2026-08-05T08:24:07+00:00",
-      "is_entry_level": true
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "Jawali, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T08:24:07+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1211,8 +1616,14 @@
       "company": "Build Fast with AI",
       "url": "https://remoteOK.com/remote-jobs/remote-loxo-build-fast-with-ai-1136136",
       "tags": [],
-      "date_posted": "2026-08-05T08:23:55+00:00",
-      "is_entry_level": true
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Jawali, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T08:23:55+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1223,8 +1634,14 @@
         "education",
         "non tech"
       ],
-      "date_posted": "2026-08-05T08:23:53+00:00",
-      "is_entry_level": true
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Luton, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T08:23:53+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1263,8 +1680,14 @@
         "video",
         "ads"
       ],
-      "date_posted": "2026-08-05T08:16:20+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Texas, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T08:16:20+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1272,8 +1695,14 @@
       "company": "FYLOS",
       "url": "https://remoteOK.com/remote-jobs/remote-walkers-amp-sitters-fylos-1136167",
       "tags": [],
-      "date_posted": "2026-08-05T08:14:46+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Live Oak, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T08:14:46+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1293,8 +1722,14 @@
         "dev",
         "cloud"
       ],
-      "date_posted": "2026-08-05T08:11:31+00:00",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location": "Standard, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T08:11:31+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1309,8 +1744,14 @@
         "shopify",
         "non tech"
       ],
-      "date_posted": "2026-08-05T08:05:10+00:00",
-      "is_entry_level": false
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "Queensland, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T08:05:10+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1325,8 +1766,14 @@
         "shopify",
         "non tech"
       ],
-      "date_posted": "2026-08-05T08:05:04+00:00",
-      "is_entry_level": false
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "New South Wales, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T08:05:04+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1338,8 +1785,14 @@
         "dev",
         "digital nomad"
       ],
-      "date_posted": "2026-08-05T07:39:56+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Good Design, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T07:39:56+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1360,8 +1813,14 @@
         "cloud",
         "finance"
       ],
-      "date_posted": "2026-08-05T07:30:37+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "å©å³¶, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T07:30:37+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1378,8 +1837,14 @@
         "web dev",
         "content writing"
       ],
-      "date_posted": "2026-08-05T07:00:08+00:00",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location": "No. 67 Village, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T07:00:08+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1387,8 +1852,14 @@
       "company": "CAI | CanadaâAsia Council for AI",
       "url": "https://remoteOK.com/remote-jobs/remote-build-from-the-frontier-cai-canada-asia-council-for-ai-1136129",
       "tags": [],
-      "date_posted": "2026-08-05T06:49:39+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Venture, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T06:49:39+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1413,8 +1884,14 @@
         "medical",
         "engineer"
       ],
-      "date_posted": "2026-08-05T05:50:41+00:00",
-      "is_entry_level": false
+      "category": "Writing & Content",
+      "experience_level": "Mid",
+      "location": "Good Design, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T05:50:41+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1422,8 +1899,14 @@
       "company": "Kore 360",
       "url": "https://remoteOK.com/remote-jobs/remote-now-hiring-kore-360-1136135",
       "tags": [],
-      "date_posted": "2026-08-05T05:40:59+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Hunterganj, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T05:40:59+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1444,8 +1927,14 @@
         "sales",
         "medical"
       ],
-      "date_posted": "2026-08-05T05:04:53+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Northwest Territories, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T05:04:53+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1475,8 +1964,14 @@
         "testing",
         "api"
       ],
-      "date_posted": "2026-08-05T05:04:18+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Success, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T05:04:18+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1484,8 +1979,14 @@
       "company": "Fochis",
       "url": "https://remoteOK.com/remote-jobs/remote-the-next-football-superstars-after-fifa-2026-fochis-1136215",
       "tags": [],
-      "date_posted": "2026-08-05T04:36:07+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Sports Park, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T04:36:07+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1520,8 +2021,14 @@
         "stats",
         "accounting"
       ],
-      "date_posted": "2026-08-05T04:11:21+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "New York City Metropolitan Area",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T04:11:21+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1552,8 +2059,14 @@
         "recruiter",
         "engineer"
       ],
-      "date_posted": "2026-08-05T04:08:49+00:00",
-      "is_entry_level": true
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "London, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T04:08:49+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1582,8 +2095,14 @@
         "golang",
         "engineer"
       ],
-      "date_posted": "2026-08-05T04:08:28+00:00",
-      "is_entry_level": true
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Gold Coast, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T04:08:28+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1596,8 +2115,14 @@
         "finance",
         "exec"
       ],
-      "date_posted": "2026-08-05T02:57:19+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Tipps End, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T02:57:19+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1609,8 +2134,14 @@
         "non tech",
         "education"
       ],
-      "date_posted": "2026-08-05T02:53:44+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Greater Darwin Area, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T02:53:44+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1621,8 +2152,14 @@
         "teaching",
         "data annotation"
       ],
-      "date_posted": "2026-08-05T02:38:35+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Cameron, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T02:38:35+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1634,8 +2171,14 @@
         "data annotation",
         "education"
       ],
-      "date_posted": "2026-08-05T02:38:15+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Cameron, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T02:38:15+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1647,8 +2190,14 @@
         "non tech",
         "education"
       ],
-      "date_posted": "2026-08-05T02:35:44+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Gold Coast, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T02:35:44+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1659,8 +2208,14 @@
         "education",
         "non tech"
       ],
-      "date_posted": "2026-08-05T02:29:57+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Ledbury, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T02:29:57+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1684,8 +2239,14 @@
         "medical",
         "education"
       ],
-      "date_posted": "2026-08-05T02:21:55+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Malappuram, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T02:21:55+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1693,8 +2254,14 @@
       "company": "Daisy Cottage",
       "url": "https://remoteOK.com/remote-jobs/remote-placeholder-4-daisy-cottage-1136252",
       "tags": [],
-      "date_posted": "2026-08-05T02:16:55+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Cairns, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T02:16:55+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1702,8 +2269,14 @@
       "company": "Daisy Cottage",
       "url": "https://remoteOK.com/remote-jobs/remote-placeholder-2-daisy-cottage-1136251",
       "tags": [],
-      "date_posted": "2026-08-05T02:16:36+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Cairns, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T02:16:36+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1736,8 +2309,14 @@
         "typescript",
         "ruby"
       ],
-      "date_posted": "2026-08-05T01:57:42+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Senior",
+      "location": "New York, New York, New York, United States",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T01:57:42+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1753,8 +2332,14 @@
         "ecommerce",
         "non tech"
       ],
-      "date_posted": "2026-08-05T01:56:14+00:00",
-      "is_entry_level": true
+      "category": "Marketing",
+      "experience_level": "Entry",
+      "location": "Millers Point, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T01:56:14+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1772,8 +2357,14 @@
         "front end",
         "dev"
       ],
-      "date_posted": "2026-08-05T01:29:55+00:00",
-      "is_entry_level": true
+      "category": "Marketing",
+      "experience_level": "Entry",
+      "location": "London, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T01:29:55+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1781,8 +2372,14 @@
       "company": "CleanDims",
       "url": "https://remoteOK.com/remote-jobs/remote-open-roles-cleandims-1136121",
       "tags": [],
-      "date_posted": "2026-08-05T01:28:11+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Indiana, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T01:28:11+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1798,8 +2395,14 @@
         "exec",
         "sys admin"
       ],
-      "date_posted": "2026-08-05T01:17:33+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Bristol, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T01:17:33+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1814,8 +2417,14 @@
         "finance",
         "exec"
       ],
-      "date_posted": "2026-08-05T00:02:14+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Guide Post, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T00:02:14+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1838,8 +2447,14 @@
         "microsoft",
         "medical"
       ],
-      "date_posted": "2026-08-05T00:01:34+00:00",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Ludhiana, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T00:01:34+00:00"
     },
     {
       "source": "RemoteOK",
@@ -1850,38 +2465,86 @@
         "dev",
         "digital nomad"
       ],
-      "date_posted": "2026-08-05T00:00:35+00:00",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "å¿æ©, ",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05T00:00:35+00:00"
     },
     {
-      "source": "RemoteOK",
-      "title": "Avi Go",
-      "company": "BAT Pros",
-      "url": "https://remoteOK.com/remote-jobs/remote-avi-go-bat-pros-1136141",
+      "source": "Arbeitnow",
+      "title": "Freelance Textile Graphic Designer (Socks & Caps)",
+      "company": "No Bad Days Club (NBDC)",
+      "url": "https://www.arbeitnow.com/jobs/companies/no-bad-days-club-nbdc/freelance-textile-graphic-designer-socks-caps-berlin-161872",
       "tags": [
-        "dev",
-        "digital nomad",
-        "customer support",
-        "non tech",
-        "quality assurance",
-        "math",
-        "ops",
-        "golang"
+        "Remote",
+        "Graphic Arts and Communication Design"
       ],
-      "date_posted": "2026-08-04T23:51:39+00:00",
-      "is_entry_level": false
+      "category": "Design",
+      "experience_level": "Mid",
+      "location": "Berlin",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
-      "source": "RemoteOK",
-      "title": "Send us your CV",
-      "company": "NibraSec",
-      "url": "https://remoteOK.com/remote-jobs/remote-send-us-your-cv-nibrasec-1136114",
+      "source": "Arbeitnow",
+      "title": "Werkstudent Planungsrecht & Research (m/w/d)",
+      "company": "syte GmbH",
+      "url": "https://www.arbeitnow.com/jobs/companies/syte-gmbh/werkstudent-planungsrecht-research-munster-95946",
       "tags": [
-        "cloud",
-        "engineer"
+        "Remote",
+        "Database Administration"
       ],
-      "date_posted": "2026-08-04T23:51:09+00:00",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location": "Münster",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Werkstudent Founders Associate - Social Media & Recruiting (w/m/d)",
+      "company": "Kintscher GbR",
+      "url": "https://www.arbeitnow.com/jobs/companies/kintscher-gbr/werkstudent-founders-associate-social-media-recruiting-munich-139416",
+      "tags": [
+        "Remote",
+        "Marketing and Communication"
+      ],
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "Munich",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Werkstudent Social Media Marketing & Recruiting (w/m/d)",
+      "company": "Kintscher GbR",
+      "url": "https://www.arbeitnow.com/jobs/companies/kintscher-gbr/werkstudent-social-media-marketing-recruiting-munich-136590",
+      "tags": [
+        "Remote",
+        "Online Marketing"
+      ],
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "Munich",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Arbeitnow",
@@ -1892,8 +2555,14 @@
         "Remote",
         "Social Media Manager"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": true
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "Cologne",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Arbeitnow",
@@ -1904,8 +2573,14 @@
         "Remote",
         "Customer Service"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": true
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "Hamburg",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Arbeitnow",
@@ -1916,8 +2591,14 @@
         "Remote",
         "Marketing and Communication"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "Berlin",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Arbeitnow",
@@ -1928,8 +2609,14 @@
         "Remote",
         "Marketing and Communication"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "Berlin",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Arbeitnow",
@@ -1940,8 +2627,14 @@
         "Remote",
         "Marketing and Communication"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "Berlin",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Arbeitnow",
@@ -1951,8 +2644,14 @@
       "tags": [
         "Land & Air"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": true
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Arbeitnow",
@@ -1962,8 +2661,14 @@
       "tags": [
         "Land & Air"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": true
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Arbeitnow",
@@ -1973,8 +2678,14 @@
       "tags": [
         "Land & Air"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": true
+      "category": "Other",
+      "experience_level": "Senior",
+      "location": "Remote",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Arbeitnow",
@@ -1985,8 +2696,14 @@
         "Remote",
         "Recruitment and Selection"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Human Resources",
+      "experience_level": "Mid",
+      "location": "Usingen",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Arbeitnow",
@@ -1997,8 +2714,14 @@
         "Remote",
         "Engineering"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location": "London",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2009,8 +2732,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Senior",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2021,8 +2750,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location": "EMEA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2033,8 +2768,14 @@
         "Software Engineering",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Marketing",
+      "experience_level": "Senior",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2045,8 +2786,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "China",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2057,8 +2804,14 @@
         "Healthcare &amp; Medical",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Australia",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "AUD",
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2069,8 +2822,14 @@
         "Software Engineering",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location": "EMEA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2081,8 +2840,14 @@
         "Business Development",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "APAC",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2093,8 +2858,14 @@
         "Finance &amp; Accounting",
         "Part-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "Philippines",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2105,8 +2876,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "Vietnam",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2117,8 +2894,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "Austria,  Germany",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2129,8 +2912,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": true
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "EMEA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2141,8 +2930,14 @@
         "Marketing &amp; Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "EMEA,  LATAM,  Canada,  USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2153,8 +2948,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2165,8 +2966,14 @@
         "Cybersecurity",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location": "France",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2177,8 +2984,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "Canada",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2189,8 +3002,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-07",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "Canada",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Jobicy",
@@ -2201,8 +3020,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "UK",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2213,8 +3038,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "Singapore",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2225,8 +3056,14 @@
         "Data Science &amp; Analytics",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Mexico",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2237,8 +3074,14 @@
         "Technical Support",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Senior",
+      "location": "Germany",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2249,8 +3092,14 @@
         "Project &amp; Program Management",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Operations",
+      "experience_level": "Senior",
+      "location": "Japan",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2261,8 +3110,14 @@
         "Marketing &amp; Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "UK",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "GBP",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2273,8 +3128,14 @@
         "Technical Support",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "Portugal",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2285,8 +3146,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2297,8 +3164,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Senior",
+      "location": "France",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2309,8 +3182,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2321,8 +3200,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "Canada,  USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2333,8 +3218,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Senior",
+      "location": "Europe,  Spain,  UK",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2345,8 +3236,14 @@
         "Technical Support",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Senior",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2357,8 +3254,14 @@
         "Finance &amp; Accounting",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2369,8 +3272,14 @@
         "Technical Support",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location": "Australia",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2381,8 +3290,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": true
+      "category": "Customer Support",
+      "experience_level": "Entry",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2393,8 +3308,14 @@
         "Software Engineering",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location": "Anywhere",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2405,8 +3326,14 @@
         "Content &amp; Editorial",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": true
+      "category": "Marketing",
+      "experience_level": "Senior",
+      "location": "Anywhere",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2417,8 +3344,14 @@
         "QA &amp; Testing",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": true
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location": "Anywhere",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2429,8 +3362,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2441,8 +3380,14 @@
         "Software Engineering",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": true
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2453,8 +3398,14 @@
         "Product &amp; Operations",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": true
+      "category": "Operations",
+      "experience_level": "Mid",
+      "location": "UK",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2465,8 +3416,14 @@
         "Software Engineering",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location": "France,  Germany,  Italy,  Spain,  Switzerland,  UK",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2477,8 +3434,14 @@
         "Creative &amp; Design",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Design",
+      "experience_level": "Senior",
+      "location": "UK",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "GBP",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2489,8 +3452,14 @@
         "Healthcare &amp; Medical",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Senior",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2501,8 +3470,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2513,8 +3488,14 @@
         "Software Engineering",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location": "UK",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2525,8 +3506,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Senior",
+      "location": "UAE",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2537,8 +3524,14 @@
         "Marketing &amp; Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": true
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2549,8 +3542,14 @@
         "SEO",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2561,8 +3560,14 @@
         "Content &amp; Editorial",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2573,8 +3578,14 @@
         "Legal &amp; Compliance",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "APAC,  Hong Kong",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2585,8 +3596,14 @@
         "Business Development",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location": "APAC",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2597,8 +3614,14 @@
         "Technical Support",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "APAC,  Australia",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2609,8 +3632,14 @@
         "Finance &amp; Accounting",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location": "APAC",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2621,8 +3650,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location": "APAC,  Australia",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2633,8 +3668,14 @@
         "Legal &amp; Compliance",
         "Part-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "APAC,  Australia,  Singapore",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2645,8 +3686,14 @@
         "Legal &amp; Compliance",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": true
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "APAC,  Australia",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2657,8 +3704,14 @@
         "Legal &amp; Compliance",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "APAC,  Hong Kong",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2669,8 +3722,14 @@
         "Legal &amp; Compliance",
         "Contract"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Malaysia",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2681,8 +3740,14 @@
         "Software Engineering",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Design",
+      "experience_level": "Mid",
+      "location": "APAC,  EMEA,  LATAM,  Canada,  USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2693,8 +3758,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": true
+      "category": "Customer Support",
+      "experience_level": "Senior",
+      "location": "EMEA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2705,8 +3776,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": true
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "EMEA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2717,8 +3794,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location": "Italy",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2729,8 +3812,14 @@
         "Business Development",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2741,8 +3830,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location": "Germany",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2753,8 +3848,14 @@
         "Product &amp; Operations",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": true
+      "category": "Operations",
+      "experience_level": "Senior",
+      "location": "EMEA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2765,8 +3866,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "Denmark",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2777,8 +3884,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "UK",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2789,8 +3902,14 @@
         "Project &amp; Program Management",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Operations",
+      "experience_level": "Mid",
+      "location": "Europe",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "EUR",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2801,8 +3920,14 @@
         "Business Development",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location": "APAC,  EMEA,  LATAM,  Canada,  USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2813,8 +3938,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "Australia",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2825,8 +3956,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "Germany",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2837,8 +3974,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2849,8 +3992,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2861,8 +4010,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "France,  Germany,  Switzerland",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2873,8 +4028,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": true
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "Mexico",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2885,8 +4046,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2897,8 +4064,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-06",
-      "is_entry_level": true
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "Thailand",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-06"
     },
     {
       "source": "Jobicy",
@@ -2909,8 +4082,14 @@
         "Product &amp; Operations",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Operations",
+      "experience_level": "Mid",
+      "location": "Europe",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -2921,8 +4100,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "APAC",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -2933,8 +4118,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "Europe,  UK",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "EUR",
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -2945,8 +4136,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": true
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "Canada",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "CAD",
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -2957,8 +4154,14 @@
         "Data Science &amp; Analytics",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -2969,8 +4172,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Senior",
+      "location": "Canada,  Europe,  USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -2981,8 +4190,14 @@
         "Product &amp; Operations",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Operations",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -2993,8 +4208,14 @@
         "Customer Support &amp; Success",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location": "APAC",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3005,8 +4226,14 @@
         "Product &amp; Operations",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Operations",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3017,8 +4244,14 @@
         "Product &amp; Operations",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Operations",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3029,8 +4262,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location": "EMEA,  UK",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3041,8 +4280,14 @@
         "Healthcare &amp; Medical",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": true
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3053,8 +4298,14 @@
         "Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "Italy",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3065,8 +4316,14 @@
         "Technical Support",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Ukraine",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3077,8 +4334,14 @@
         "Business Development",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location": "France",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3089,8 +4352,14 @@
         "Technical Support",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Senior",
+      "location": "Germany,  Ireland,  Israel,  Romania,  UK",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3101,8 +4370,14 @@
         "Product &amp; Operations",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Operations",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3113,8 +4388,14 @@
         "Software Engineering",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location": "Canada",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "CAD",
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3125,8 +4406,14 @@
         "Product &amp; Operations",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Operations",
+      "experience_level": "Mid",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3137,8 +4424,14 @@
         "Data Science &amp; Analytics",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location": "Europe",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3149,8 +4442,14 @@
         "Marketing &amp; Sales",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Marketing",
+      "experience_level": "Senior",
+      "location": "Europe",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3161,8 +4460,14 @@
         "Data Science &amp; Analytics",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Senior",
+      "location": "USA",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3173,8 +4478,14 @@
         "Software Engineering",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location": "Europe",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     },
     {
       "source": "Jobicy",
@@ -3185,8 +4496,14 @@
         "Data Science &amp; Analytics",
         "Full-Time"
       ],
-      "date_posted": "2026-08-05",
-      "is_entry_level": false
+      "category": "Other",
+      "experience_level": "Mid",
+      "location": "Europe",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-08-05"
     }
   ]
 }
