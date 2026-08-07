@@ -1,11 +1,11 @@
 """
-Job Aggregator v4 - adds category classification and experience-level
-inference on top of v3. Both are keyword-based best-effort guesses since
-the source APIs don't provide these fields natively - labeled as such
-on the site.
+Job Aggregator v6 - splits location into `location_country` and
+`location_area` (city/state/sub-region where available) so the site can
+offer a country dropdown, then an area dropdown filtered by that country.
 """
 
 import json
+import re
 import time
 from datetime import datetime, timezone
 
@@ -26,10 +26,11 @@ CATEGORY_RULES = [
                                "tax ", "audit", "payroll", "controller", "cfo"]),
     ("Marketing", ["marketing", "seo", "sem", "content strategist", "growth", "brand", "social media",
                    "email marketing", "ppc", "campaign"]),
-    ("Sales", ["sales", "account executive", "business development", "bdr", "sdr", "account manager"]),
+    ("Sales", ["sales", "account executive", "business development", "bdr", "sdr", "account manager",
+               "renewal", "partner "]),
     ("Design", ["designer", "ux", "ui ", "graphic design", "product design", "figma"]),
     ("Customer Support", ["customer support", "customer success", "support specialist", "help desk",
-                           "customer service"]),
+                           "customer service", "onboarding"]),
     ("Human Resources", ["hr ", "human resources", "recruiter", "recruiting", "talent acquisition",
                           "people ops"]),
     ("Writing & Content", ["writer", "copywriter", "content writer", "editor", "journalist",
@@ -40,7 +41,90 @@ CATEGORY_RULES = [
                      "machine learning", "cybersecurity", "cloud", "systems admin"]),
 ]
 
+REGION_LABELS = ["EMEA", "APAC", "LATAM", "Anywhere", "Remote", "Europe", "Worldwide"]
+
+COUNTRIES = [
+    "United States", "USA", "US", "Canada", "United Kingdom", "UK", "Germany", "France",
+    "Spain", "Italy", "Portugal", "Netherlands", "Belgium", "Switzerland", "Austria",
+    "Ireland", "Sweden", "Norway", "Denmark", "Finland", "Poland", "Romania", "Ukraine",
+    "Australia", "New Zealand", "India", "Pakistan", "China", "Japan", "South Korea",
+    "Singapore", "Philippines", "Vietnam", "Thailand", "Indonesia", "Malaysia",
+    "Hong Kong", "UAE", "United Arab Emirates", "Israel", "Saudi Arabia", "Mexico",
+    "Brazil", "Argentina", "Chile", "Colombia", "South Africa", "Nigeria", "Egypt",
+    "Turkey", "Greece", "Czech Republic", "Hungary", "Bulgaria",
+]
+
+CITY_TO_COUNTRY = {
+    "berlin": "Germany", "munich": "Germany", "münster": "Germany", "hamburg": "Germany",
+    "cologne": "Germany", "usingen": "Germany", "frankfurt": "Germany",
+    "london": "United Kingdom", "bristol": "United Kingdom", "luton": "United Kingdom",
+    "manchester": "United Kingdom", "birmingham": "United Kingdom",
+    "toronto": "Canada", "vancouver": "Canada", "montreal": "Canada",
+    "los angeles": "United States", "new york": "United States", "chicago": "United States",
+    "san francisco": "United States", "austin": "United States", "seattle": "United States",
+    "paris": "France", "madrid": "Spain", "barcelona": "Spain", "rome": "Italy",
+    "milan": "Italy", "amsterdam": "Netherlands", "dublin": "Ireland",
+    "sydney": "Australia", "melbourne": "Australia", "gold coast": "Australia",
+    "queensland": "Australia", "gurgaon": "India", "bengaluru": "India", "bangalore": "India",
+}
+
 HEADERS = {"User-Agent": "job-aggregator-bot/1.0 (personal project)"}
+
+
+def normalize_location(raw_location: str):
+    """Returns (country, area). area is city/state/sub-region where the
+    data actually contains one; otherwise 'Not specified'."""
+    if not raw_location:
+        return "Not specified", "Not specified"
+
+    text = raw_location.strip().strip(",").strip()
+    if not text:
+        return "Not specified", "Not specified"
+
+    for region in REGION_LABELS:
+        if region.lower() in text.lower():
+            return region, "Not specified"
+
+    parts = [p.strip() for p in text.split(",") if p.strip()]
+
+    # Try to find a country among the comma-separated parts.
+    country_found = None
+    remaining_parts = []
+    for part in parts:
+        matched = False
+        for country in COUNTRIES:
+            if re.fullmatch(re.escape(country), part, re.IGNORECASE):
+                country_found = "United States" if country in ("USA", "US") else (
+                    "United Kingdom" if country == "UK" else country
+                )
+                matched = True
+                break
+        if not matched:
+            remaining_parts.append(part)
+
+    if country_found:
+        # Dedupe remaining parts, keep first as the area.
+        seen = set()
+        unique_remaining = []
+        for p in remaining_parts:
+            if p.lower() not in seen:
+                seen.add(p.lower())
+                unique_remaining.append(p)
+        area = unique_remaining[0] if unique_remaining else "Not specified"
+        return country_found, area
+
+    # No explicit country - try matching a known city.
+    for part in parts:
+        key = part.lower()
+        if key in CITY_TO_COUNTRY:
+            return CITY_TO_COUNTRY[key], part
+
+    return "Other / Unspecified", (parts[0] if parts else "Not specified")
+
+
+def is_entry_level(title: str, description: str = "") -> bool:
+    text = f"{title} {description}".lower()
+    return any(kw in text for kw in ENTRY_KEYWORDS)
 
 
 def classify_experience(title: str) -> str:
@@ -61,6 +145,7 @@ def classify_category(title: str, tags: list) -> str:
 
 
 def build_job(source, title, company, url, tags, location, salary_min, salary_max, currency, date_posted):
+    country, area = normalize_location(location)
     return {
         "source": source,
         "title": title,
@@ -69,7 +154,8 @@ def build_job(source, title, company, url, tags, location, salary_min, salary_ma
         "tags": tags,
         "category": classify_category(title, tags),
         "experience_level": classify_experience(title),
-        "location": location or "Remote",
+        "location_country": country,
+        "location_area": area,
         "remote": True,
         "salary_min": salary_min,
         "salary_max": salary_max,
