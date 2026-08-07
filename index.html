@@ -3,109 +3,237 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Remote Tech Jobs</title>
+<title>Remote Job Search</title>
 <style>
-  body { font-family: -apple-system, Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 16px; background: #fafafa; color: #1a1a1a; }
-  h1 { font-size: 1.6rem; }
-  .sub { color: #666; margin-bottom: 20px; }
-  .controls { background: #fff; border: 1px solid #e2e2e2; border-radius: 8px; padding: 14px; margin-bottom: 16px; }
-  #search { width: 100%; padding: 10px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px; box-sizing: border-box; margin-bottom: 10px; }
-  .filter-row { display: flex; align-items: center; gap: 8px; font-size: 0.9rem; }
-  .job { background: #fff; border: 1px solid #e2e2e2; border-radius: 8px; padding: 16px; margin-bottom: 12px; }
-  .job h3 { margin: 0 0 4px 0; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 20px 16px 60px; background: #fafafa; color: #1a1a1a; }
+  h1 { font-size: 1.5rem; margin-bottom: 4px; }
+  .sub { color: #666; margin-bottom: 4px; font-size: 0.9rem; }
+  .note { color: #999; margin-bottom: 16px; font-size: 0.78rem; }
+  #search { width: 100%; padding: 12px; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 12px; }
+
+  .filters { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; background: #fff; border: 1px solid #e2e2e2; border-radius: 8px; padding: 12px; margin-bottom: 16px; }
+  .filters select, .filters input { width: 100%; padding: 8px; font-size: 0.85rem; border: 1px solid #ccc; border-radius: 6px; }
+  .filters label { font-size: 0.75rem; color: #666; display: block; margin-bottom: 3px; }
+  .checkbox-item { grid-column: span 2; display: flex; align-items: center; gap: 6px; font-size: 0.85rem; }
+  #clearFilters { grid-column: span 2; background: #f3f4f6; border: 1px solid #ccc; border-radius: 6px; padding: 8px; font-size: 0.85rem; cursor: pointer; }
+
+  #status { color: #666; margin-bottom: 10px; font-size: 0.9rem; }
+  .job { background: #fff; border: 1px solid #e2e2e2; border-radius: 8px; padding: 16px; margin-bottom: 10px; }
+  .job h3 { margin: 0 0 4px 0; font-size: 1rem; }
   .job a { color: #1a56db; text-decoration: none; }
   .job a:hover { text-decoration: underline; }
-  .meta { color: #888; font-size: 0.85rem; margin-top: 6px; }
-  .tag { display: inline-block; background: #eef2ff; color: #3730a3; border-radius: 4px; padding: 2px 8px; font-size: 0.75rem; margin-right: 4px; }
-  .badge { display: inline-block; background: #dcfce7; color: #166534; border-radius: 4px; padding: 2px 8px; font-size: 0.7rem; margin-left: 8px; }
-  #status { color: #888; margin-bottom: 10px; }
-  #loadMore { display: block; width: 100%; padding: 12px; margin-top: 10px; background: #1a56db; color: #fff; border: none; border-radius: 8px; font-size: 1rem; cursor: pointer; }
-  #loadMore:disabled { background: #ccc; }
+  .meta { color: #888; font-size: 0.82rem; margin-top: 6px; }
+  .salary { color: #166534; font-weight: 600; font-size: 0.85rem; margin-top: 4px; }
+  .tag { display: inline-block; background: #eef2ff; color: #3730a3; border-radius: 4px; padding: 2px 8px; font-size: 0.72rem; margin-right: 4px; margin-top: 6px; }
+  .badge { display: inline-block; border-radius: 4px; padding: 2px 8px; font-size: 0.68rem; margin-left: 6px; }
+  .badge-remote { background: #e0f2fe; color: #075985; }
+  .badge-entry { background: #dcfce7; color: #166534; }
+  .badge-mid { background: #fef9c3; color: #854d0e; }
+  .badge-senior { background: #fee2e2; color: #991b1b; }
+  .badge-category { background: #f3e8ff; color: #6b21a8; }
+
+  .pagination { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin-top: 20px; }
+  .pagination button { min-width: 36px; padding: 8px 10px; border: 1px solid #ccc; background: #fff; border-radius: 6px; cursor: pointer; font-size: 0.9rem; }
+  .pagination button.active { background: #1a56db; color: #fff; border-color: #1a56db; }
+  .pagination button:disabled { opacity: 0.4; cursor: default; }
 </style>
 </head>
 <body>
-  <h1>Remote Tech Jobs</h1>
+  <h1>Remote Job Search</h1>
   <div class="sub">Auto-updated daily from multiple job boards.</div>
+  <div class="note">Category and experience level are inferred from the job title/tags (not always provided by the source) — treat as a helpful guide, not a guarantee.</div>
 
-  <div class="controls">
-    <input type="text" id="search" placeholder="Search by title, company, or keyword...">
-    <div class="filter-row">
-      <input type="checkbox" id="entryOnly">
-      <label for="entryOnly">Entry-level / junior only</label>
+  <input type="text" id="search" placeholder="Search by title, company, or keyword...">
+
+  <div class="filters">
+    <div>
+      <label for="categoryFilter">Category</label>
+      <select id="categoryFilter"><option value="">All categories</option></select>
     </div>
+    <div>
+      <label for="experienceFilter">Experience level</label>
+      <select id="experienceFilter">
+        <option value="">All levels</option>
+        <option value="Entry">Entry</option>
+        <option value="Mid">Intermediate / Mid</option>
+        <option value="Senior">Senior / Expert</option>
+      </select>
+    </div>
+    <div>
+      <label for="locationFilter">Location</label>
+      <select id="locationFilter"><option value="">All locations</option></select>
+    </div>
+    <div>
+      <label for="currencyFilter">Currency</label>
+      <select id="currencyFilter"><option value="">Any currency</option></select>
+    </div>
+    <div>
+      <label for="minSalary">Min salary</label>
+      <input type="number" id="minSalary" placeholder="e.g. 40000">
+    </div>
+    <button id="clearFilters" onclick="clearFilters()">Clear all filters</button>
   </div>
 
   <div id="status">Loading jobs...</div>
   <div id="jobs"></div>
-  <button id="loadMore" onclick="showMore()" style="display:none;">Load more</button>
+  <div class="pagination" id="pagination"></div>
 
 <script>
 let allJobs = [];
 let filteredJobs = [];
-let shown = 0;
+let currentPage = 1;
 const PAGE_SIZE = 20;
 
 fetch('jobs.json')
   .then(r => r.json())
   .then(data => {
     allJobs = data.jobs || [];
+    populateFilterOptions();
     document.getElementById('status').textContent =
-      `${allJobs.length} jobs • updated ${new Date(data.generated_at).toLocaleString()}`;
+      `${allJobs.length} jobs total • updated ${new Date(data.generated_at).toLocaleString()}`;
     applyFilters();
   })
   .catch(() => {
     document.getElementById('status').textContent = 'jobs.json not found yet — check back after the next daily update.';
   });
 
-function applyFilters() {
-  const query = document.getElementById('search').value.toLowerCase().trim();
-  const entryOnly = document.getElementById('entryOnly').checked;
+function populateFilterOptions() {
+  const categories = [...new Set(allJobs.map(j => j.category).filter(Boolean))].sort();
+  const locations = [...new Set(allJobs.map(j => j.location).filter(Boolean))].sort();
+  const currencies = [...new Set(allJobs.map(j => j.currency).filter(Boolean))].sort();
 
-  filteredJobs = allJobs.filter(job => {
-    if (entryOnly && !job.is_entry_level) return false;
-    if (!query) return true;
-    const haystack = `${job.title} ${job.company} ${(job.tags||[]).join(' ')}`.toLowerCase();
-    return haystack.includes(query);
-  });
-
-  shown = 0;
-  document.getElementById('jobs').innerHTML = '';
-  showMore();
+  const catSel = document.getElementById('categoryFilter');
+  categories.forEach(c => catSel.innerHTML += `<option value="${c}">${c}</option>`);
+  const locSel = document.getElementById('locationFilter');
+  locations.forEach(l => locSel.innerHTML += `<option value="${l}">${l}</option>`);
+  const curSel = document.getElementById('currencyFilter');
+  currencies.forEach(c => curSel.innerHTML += `<option value="${c}">${c}</option>`);
 }
 
-function showMore() {
+function applyFilters() {
+  const query = document.getElementById('search').value.toLowerCase().trim();
+  const category = document.getElementById('categoryFilter').value;
+  const experience = document.getElementById('experienceFilter').value;
+  const location = document.getElementById('locationFilter').value;
+  const currency = document.getElementById('currencyFilter').value;
+  const minSalary = parseFloat(document.getElementById('minSalary').value) || null;
+
+  filteredJobs = allJobs.filter(job => {
+    if (category && job.category !== category) return false;
+    if (experience && job.experience_level !== experience) return false;
+    if (location && job.location !== location) return false;
+    if (currency && job.currency !== currency) return false;
+    if (minSalary && (!job.salary_max || job.salary_max < minSalary)) return false;
+    if (query) {
+      const haystack = `${job.title} ${job.company} ${(job.tags||[]).join(' ')}`.toLowerCase();
+      if (!haystack.includes(query)) return false;
+    }
+    return true;
+  });
+
+  currentPage = 1;
+  renderPage();
+}
+
+function clearFilters() {
+  document.getElementById('search').value = '';
+  document.getElementById('categoryFilter').value = '';
+  document.getElementById('experienceFilter').value = '';
+  document.getElementById('locationFilter').value = '';
+  document.getElementById('currencyFilter').value = '';
+  document.getElementById('minSalary').value = '';
+  applyFilters();
+}
+
+function experienceBadgeClass(level) {
+  if (level === 'Entry') return 'badge-entry';
+  if (level === 'Senior') return 'badge-senior';
+  return 'badge-mid';
+}
+
+function renderPage() {
   const container = document.getElementById('jobs');
-  const slice = filteredJobs.slice(shown, shown + PAGE_SIZE);
-  slice.forEach(job => {
+  container.innerHTML = '';
+
+  if (filteredJobs.length === 0) {
+    container.innerHTML = '<div style="color:#888;">No jobs match your filters.</div>';
+    document.getElementById('pagination').innerHTML = '';
+    return;
+  }
+
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const pageJobs = filteredJobs.slice(start, start + PAGE_SIZE);
+
+  pageJobs.forEach(job => {
     const div = document.createElement('div');
     div.className = 'job';
     const tags = (job.tags || []).slice(0, 5).map(t => `<span class="tag">${t}</span>`).join('');
-    const badge = job.is_entry_level ? '<span class="badge">Entry-level</span>' : '';
+    let salaryLine = '';
+    if (job.salary_min || job.salary_max) {
+      const cur = job.currency || '';
+      const min = job.salary_min ? job.salary_min.toLocaleString() : '?';
+      const max = job.salary_max ? job.salary_max.toLocaleString() : '?';
+      salaryLine = `<div class="salary">${cur} ${min} - ${max}</div>`;
+    }
     div.innerHTML = `
-      <h3><a href="${job.url}" target="_blank" rel="noopener">${job.title}</a>${badge}</h3>
-      <div>${job.company}</div>
+      <h3>
+        <a href="${job.url}" target="_blank" rel="noopener">${job.title}</a>
+        <span class="badge badge-remote">Remote</span>
+        <span class="badge ${experienceBadgeClass(job.experience_level)}">${job.experience_level}</span>
+        <span class="badge badge-category">${job.category}</span>
+      </h3>
+      <div>${job.company} — ${job.location || 'Remote'}</div>
+      ${salaryLine}
       <div class="meta">${job.source} • ${job.date_posted || ''}</div>
-      <div style="margin-top:8px;">${tags}</div>
+      <div>${tags}</div>
     `;
     container.appendChild(div);
   });
-  shown += slice.length;
 
-  const loadMoreBtn = document.getElementById('loadMore');
-  if (shown >= filteredJobs.length) {
-    loadMoreBtn.style.display = 'none';
-  } else {
-    loadMoreBtn.style.display = 'block';
-    loadMoreBtn.textContent = `Load more (${filteredJobs.length - shown} remaining)`;
-  }
+  document.getElementById('status').textContent =
+    `Showing ${start + 1}-${Math.min(start + PAGE_SIZE, filteredJobs.length)} of ${filteredJobs.length} jobs`;
 
-  if (filteredJobs.length === 0) {
-    container.innerHTML = '<div style="color:#888;">No jobs match your search.</div>';
-  }
+  renderPagination();
+  window.scrollTo({ top: 0, behavior: 'instant' });
+}
+
+function renderPagination() {
+  const totalPages = Math.ceil(filteredJobs.length / PAGE_SIZE);
+  const pag = document.getElementById('pagination');
+  pag.innerHTML = '';
+  if (totalPages <= 1) return;
+
+  const addBtn = (label, page, disabled, active) => {
+    const btn = document.createElement('button');
+    btn.textContent = label;
+    btn.disabled = disabled;
+    if (active) btn.className = 'active';
+    btn.onclick = () => { currentPage = page; renderPage(); };
+    pag.appendChild(btn);
+  };
+
+  addBtn('Prev', currentPage - 1, currentPage === 1, false);
+
+  let startPage = Math.max(1, currentPage - 2);
+  let endPage = Math.min(totalPages, startPage + 4);
+  startPage = Math.max(1, endPage - 4);
+
+  if (startPage > 1) addBtn('1', 1, false, false);
+  if (startPage > 2) pag.appendChild(document.createTextNode('...'));
+  for (let p = startPage; p <= endPage; p++) addBtn(String(p), p, false, p === currentPage);
+  if (endPage < totalPages - 1) pag.appendChild(document.createTextNode('...'));
+  if (endPage < totalPages) addBtn(String(totalPages), totalPages, false, false);
+
+  addBtn('Next', currentPage + 1, currentPage === totalPages, false);
 }
 
 document.getElementById('search').addEventListener('input', applyFilters);
-document.getElementById('entryOnly').addEventListener('change', applyFilters);
+document.getElementById('categoryFilter').addEventListener('change', applyFilters);
+document.getElementById('experienceFilter').addEventListener('change', applyFilters);
+document.getElementById('locationFilter').addEventListener('change', applyFilters);
+document.getElementById('currencyFilter').addEventListener('change', applyFilters);
+document.getElementById('minSalary').addEventListener('input', applyFilters);
 </script>
 </body>
 </html>
