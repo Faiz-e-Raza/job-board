@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-08-06T17:33:27.173312+00:00",
-  "count": 16,
+  "generated_at": "2026-08-07T08:06:40.971282+00:00",
+  "count": 17,
   "jobs": [
+    {
+      "source": "RemoteOK",
+      "title": "YHA QUEENSLAND",
+      "company": "Elockers.Com Pty Ltd",
+      "url": "https://remoteOK.com/remote-jobs/remote-yha-queensland-elockers-com-pty-ltd-1136265",
+      "tags": [
+        "testing",
+        "non tech",
+        "education",
+        "travel"
+      ],
+      "date_posted": "2026-08-06T05:58:01+00:00"
+    },
     {
       "source": "RemoteOK",
       "title": "owlette",
@@ -295,34 +308,34 @@
       "date_posted": "2026-08-05T01:29:55+00:00"
     },
     {
-      "source": "RemoteOK",
-      "title": "Asistente virtual administrativo",
-      "company": "Universia Brasil",
-      "url": "https://remoteOK.com/remote-jobs/remote-asistente-virtual-administrativo-universia-brasil-1136125",
-      "tags": [],
-      "date_posted": "2026-08-04T22:28:41+00:00"
+      "source": "Arbeitnow",
+      "title": "Direct Contractor Tunisia & Morocco",
+      "company": "loveholidays",
+      "url": "https://www.arbeitnow.com/jobs/companies/loveholidays/remote-direct-contractor-tunisia-morocco-413062",
+      "tags": [
+        "Land & Air"
+      ],
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Arbeitnow",
-      "title": "Team Lead SAP ABAP Development – Data Migration (m/w/d)",
-      "company": "Natuvion GmbH",
-      "url": "https://www.arbeitnow.com/jobs/companies/natuvion-gmbh/remote-team-lead-sap-abap-development-data-migration-berlin-106136",
+      "title": "Direct Contractor Portugal",
+      "company": "loveholidays",
+      "url": "https://www.arbeitnow.com/jobs/companies/loveholidays/remote-direct-contractor-portugal-249082",
       "tags": [
-        "Technical Migration",
-        "Remote"
+        "Land & Air"
       ],
-      "date_posted": "2026-08-06"
+      "date_posted": "2026-08-07"
     },
     {
       "source": "Arbeitnow",
-      "title": "SAP Finance (FI/CO) Migration Architect (m/w/d)",
-      "company": "Natuvion GmbH",
-      "url": "https://www.arbeitnow.com/jobs/companies/natuvion-gmbh/remote-sap-finance-fi-co-migration-architect-berlin-108475",
+      "title": "Head of Contracting",
+      "company": "loveholidays",
+      "url": "https://www.arbeitnow.com/jobs/companies/loveholidays/remote-head-of-contracting-491485",
       "tags": [
-        "Technical Migration",
-        "Remote"
+        "Land & Air"
       ],
-      "date_posted": "2026-08-06"
+      "date_posted": "2026-08-07"
     }
   ]
 }
