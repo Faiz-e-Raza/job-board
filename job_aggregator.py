@@ -1,10 +1,12 @@
 """
-Job Aggregator - pulls entry-level/junior remote tech jobs from FREE public
-job APIs (no scraping, no API keys needed) and outputs a clean jobs.json.
+Job Aggregator v2 - pulls remote jobs from 3 FREE public job APIs.
+Instead of dropping non-entry-level jobs, it tags every job with
+is_entry_level=true/false so the website can filter/search client-side.
 
-Data sources (both free, no auth required):
+Data sources (all free, no API key required):
 - RemoteOK: https://remoteok.com/api
 - Arbeitnow: https://www.arbeitnow.com/api/job-board-api
+- Jobicy: https://jobicy.com/api/v2/remote-jobs
 """
 
 import json
@@ -35,9 +37,9 @@ def fetch_remoteok():
         data = resp.json()
         for item in data[1:]:
             title = item.get("position", "")
-            desc = item.get("description", "") or ""
-            if not is_entry_level(title, desc):
+            if not title:
                 continue
+            desc = item.get("description", "") or ""
             jobs.append({
                 "source": "RemoteOK",
                 "title": title,
@@ -45,6 +47,7 @@ def fetch_remoteok():
                 "url": item.get("url") or f"https://remoteok.com/l/{item.get('id','')}",
                 "tags": item.get("tags", []),
                 "date_posted": item.get("date", ""),
+                "is_entry_level": is_entry_level(title, desc),
             })
     except Exception as e:
         print(f"[warn] RemoteOK fetch failed: {e}")
@@ -61,11 +64,9 @@ def fetch_arbeitnow():
         data = resp.json()
         for item in data.get("data", []):
             title = item.get("title", "")
+            if not title or not item.get("remote", False):
+                continue
             desc = item.get("description", "") or ""
-            if not item.get("remote", False):
-                continue
-            if not is_entry_level(title, desc):
-                continue
             jobs.append({
                 "source": "Arbeitnow",
                 "title": title,
@@ -75,9 +76,43 @@ def fetch_arbeitnow():
                 "date_posted": datetime.fromtimestamp(
                     item.get("created_at", time.time()), tz=timezone.utc
                 ).strftime("%Y-%m-%d") if item.get("created_at") else "",
+                "is_entry_level": is_entry_level(title, desc),
             })
     except Exception as e:
         print(f"[warn] Arbeitnow fetch failed: {e}")
+    return jobs
+
+
+def fetch_jobicy():
+    jobs = []
+    try:
+        resp = requests.get(
+            "https://jobicy.com/api/v2/remote-jobs?count=100",
+            headers=HEADERS, timeout=20,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        for item in data.get("jobs", []):
+            title = item.get("jobTitle", "")
+            if not title:
+                continue
+            desc = item.get("jobExcerpt", "") or ""
+            tags = []
+            if item.get("jobIndustry"):
+                tags.extend(item["jobIndustry"])
+            if item.get("jobType"):
+                tags.extend(item["jobType"])
+            jobs.append({
+                "source": "Jobicy",
+                "title": title,
+                "company": item.get("companyName", "Unknown"),
+                "url": item.get("url", ""),
+                "tags": tags,
+                "date_posted": item.get("pubDate", "")[:10] if item.get("pubDate") else "",
+                "is_entry_level": is_entry_level(title, desc),
+            })
+    except Exception as e:
+        print(f"[warn] Jobicy fetch failed: {e}")
     return jobs
 
 
@@ -97,18 +132,20 @@ def main():
     all_jobs = []
     all_jobs.extend(fetch_remoteok())
     all_jobs.extend(fetch_arbeitnow())
+    all_jobs.extend(fetch_jobicy())
     all_jobs = dedupe(all_jobs)
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "count": len(all_jobs),
+        "entry_level_count": sum(1 for j in all_jobs if j["is_entry_level"]),
         "jobs": all_jobs,
     }
 
     with open("jobs.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"Wrote {len(all_jobs)} entry-level remote jobs to jobs.json")
+    print(f"Wrote {len(all_jobs)} total jobs ({output['entry_level_count']} entry-level) to jobs.json")
 
 
 if __name__ == "__main__":
