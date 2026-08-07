@@ -1,12 +1,6 @@
 """
-Job Aggregator v2 - pulls remote jobs from 3 FREE public job APIs.
-Instead of dropping non-entry-level jobs, it tags every job with
-is_entry_level=true/false so the website can filter/search client-side.
-
-Data sources (all free, no API key required):
-- RemoteOK: https://remoteok.com/api
-- Arbeitnow: https://www.arbeitnow.com/api/job-board-api
-- Jobicy: https://jobicy.com/api/v2/remote-jobs
+Job Aggregator v3 - pulls remote jobs from 3 free APIs and extracts
+structured fields (location, category, salary, currency) for filtering.
 """
 
 import json
@@ -40,12 +34,18 @@ def fetch_remoteok():
             if not title:
                 continue
             desc = item.get("description", "") or ""
+            tags = item.get("tags", []) or []
             jobs.append({
                 "source": "RemoteOK",
                 "title": title,
                 "company": item.get("company", "Unknown"),
                 "url": item.get("url") or f"https://remoteok.com/l/{item.get('id','')}",
-                "tags": item.get("tags", []),
+                "tags": tags,
+                "category": tags[0] if tags else "General",
+                "location": item.get("location") or "Remote",
+                "salary_min": item.get("salary_min") or None,
+                "salary_max": item.get("salary_max") or None,
+                "currency": "USD" if (item.get("salary_min") or item.get("salary_max")) else None,
                 "date_posted": item.get("date", ""),
                 "is_entry_level": is_entry_level(title, desc),
             })
@@ -67,12 +67,18 @@ def fetch_arbeitnow():
             if not title or not item.get("remote", False):
                 continue
             desc = item.get("description", "") or ""
+            tags = item.get("tags", []) or []
             jobs.append({
                 "source": "Arbeitnow",
                 "title": title,
                 "company": item.get("company_name", "Unknown"),
                 "url": item.get("url", ""),
-                "tags": item.get("tags", []),
+                "tags": tags,
+                "category": tags[0] if tags else "General",
+                "location": item.get("location") or "Remote",
+                "salary_min": None,
+                "salary_max": None,
+                "currency": None,
                 "date_posted": datetime.fromtimestamp(
                     item.get("created_at", time.time()), tz=timezone.utc
                 ).strftime("%Y-%m-%d") if item.get("created_at") else "",
@@ -108,6 +114,11 @@ def fetch_jobicy():
                 "company": item.get("companyName", "Unknown"),
                 "url": item.get("url", ""),
                 "tags": tags,
+                "category": (item.get("jobIndustry") or ["General"])[0],
+                "location": item.get("jobGeo") or "Remote",
+                "salary_min": item.get("annualSalaryMin") or None,
+                "salary_max": item.get("annualSalaryMax") or None,
+                "currency": item.get("salaryCurrency") or None,
                 "date_posted": item.get("pubDate", "")[:10] if item.get("pubDate") else "",
                 "is_entry_level": is_entry_level(title, desc),
             })
@@ -138,14 +149,13 @@ def main():
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "count": len(all_jobs),
-        "entry_level_count": sum(1 for j in all_jobs if j["is_entry_level"]),
         "jobs": all_jobs,
     }
 
     with open("jobs.json", "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
-    print(f"Wrote {len(all_jobs)} total jobs ({output['entry_level_count']} entry-level) to jobs.json")
+    print(f"Wrote {len(all_jobs)} jobs to jobs.json")
 
 
 if __name__ == "__main__":
