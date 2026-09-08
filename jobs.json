@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-07T13:08:43.601116+00:00",
-  "count": 211,
+  "generated_at": "2026-09-08T11:53:30.565421+00:00",
+  "count": 216,
   "jobs": [
     {
       "source": "RemoteOK",
@@ -2346,33 +2346,14 @@
     },
     {
       "source": "Arbeitnow",
-      "title": "Freelancer - Kundenservice Mobilfunk Inbound - EU, außerhalb Deutschland - 100% Remote",
-      "company": "hey contact heroes GmbH",
-      "url": "https://www.arbeitnow.com/jobs/companies/hey-contact-heroes-gmbh/freelancer-kundenservice-mobilfunk-inbound-eu-ausserhalb-deutschland-100-remote-berlin-143894",
+      "title": "Interim Controller (gn) SaaS / Grafana",
+      "company": "ELANI Sports GmbH",
+      "url": "https://www.arbeitnow.com/jobs/companies/elani-sports-gmbh/interim-controller-gn-saas-grafana-hamburg-144238",
       "tags": [
         "Remote",
-        "Customer Service"
+        "Controlling"
       ],
-      "category": "Customer Support",
-      "experience_level": "Mid",
-      "location_country": "Germany",
-      "location_area": "Berlin",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-07"
-    },
-    {
-      "source": "Arbeitnow",
-      "title": "EU Freelancer (m/w/d) - Inbound Customer Service - 100% Homeoffice - EU, außerhalb DE",
-      "company": "hey contact heroes GmbH",
-      "url": "https://www.arbeitnow.com/jobs/companies/hey-contact-heroes-gmbh/eu-freelancer-inbound-customer-service-100-homeoffice-eu-ausserhalb-de-hamburg-345624",
-      "tags": [
-        "Remote",
-        "Customer Service"
-      ],
-      "category": "Customer Support",
+      "category": "Accounting & Finance",
       "experience_level": "Mid",
       "location_country": "Germany",
       "location_area": "Hamburg",
@@ -2380,71 +2361,51 @@
       "salary_min": null,
       "salary_max": null,
       "currency": null,
-      "date_posted": "2026-09-07"
+      "date_posted": "2026-09-08"
     },
     {
       "source": "Arbeitnow",
-      "title": "Senior Datenbankadministrator (Oracle & PostgreSQL)",
-      "company": "Coopers Group AG",
-      "url": "https://www.arbeitnow.com/jobs/companies/coopers-group-ag/senior-datenbankadministrator-oracle-postgresql-munich-459633",
+      "title": "Customer Onboarding & Success Manager (m/w/d) 100% Remote möglich",
+      "company": "cinify GmbH",
+      "url": "https://www.arbeitnow.com/jobs/companies/cinify-gmbh/customer-onboarding-success-manager-100-remote-moglich-bochum-213527",
       "tags": [
         "Remote",
-        "Data Processing",
-        "Data Engineer"
+        "Process Management"
       ],
-      "category": "Technology",
-      "experience_level": "Senior",
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location_country": "Other / Unspecified",
+      "location_area": "Bochum",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Freelancer im Social Recruiting mit Meta / Facebook Ad Media Buying Erfahrung (m/w/d) im E-Commerce - 100% remote - von zu Hause",
+      "company": "Hommel Hired",
+      "url": "https://www.arbeitnow.com/jobs/companies/hommel-hired/freelancer-im-social-recruiting-mit-meta-facebook-ad-media-buying-erfahrung-im-e-commerce-100-remote-von-zu-hause-munich-224625",
+      "tags": [
+        "Remote",
+        "Social Media Manager"
+      ],
+      "category": "Marketing",
+      "experience_level": "Mid",
       "location_country": "Germany",
       "location_area": "Munich",
       "remote": true,
       "salary_min": null,
       "salary_max": null,
       "currency": null,
-      "date_posted": "2026-09-07"
+      "date_posted": "2026-09-08"
     },
     {
       "source": "Arbeitnow",
-      "title": "Ex Steuerfachangestellter StFa im Customer Support / Kundenbetreuung mit Buchhaltung (m/w/d) - 100% remote",
-      "company": "BuchhaltungsButler",
-      "url": "https://www.arbeitnow.com/jobs/companies/buchhaltungsbutler/ex-steuerfachangestellter-stfa-im-customer-support-kundenbetreuung-mit-buchhaltung-100-remote-berlin-254350",
-      "tags": [
-        "Remote",
-        "Customer Service"
-      ],
-      "category": "Customer Support",
-      "experience_level": "Mid",
-      "location_country": "Germany",
-      "location_area": "Berlin",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-07"
-    },
-    {
-      "source": "Arbeitnow",
-      "title": "Long-Term YouTube Host / On-Camera Presenter",
-      "company": "Schnell Global",
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/schnell-global/long-term-youtube-host-on-camera-presenter-london-184975",
-      "tags": [
-        "Remote",
-        "Marketing and Communication"
-      ],
-      "category": "Marketing",
-      "experience_level": "Mid",
-      "location_country": "United Kingdom",
-      "location_area": "London",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Arbeitnow",
-      "title": "AxiomSL Implementation Consultant",
+      "title": "AxiomSL Developer/ Implementation Consultant",
       "company": "Excelgens Consulting Sverige Ab",
-      "url": "https://www.arbeitnow.co.uk/jobs/companies/excelgens-consulting-sverige-ab/axiomsl-implementation-consultant-london-425025",
+      "url": "https://www.arbeitnow.com/jobs/companies/excelgens-consulting-sverige-ab/axiomsl-developer-implementation-consultant-frankfurt-am-main-214336",
       "tags": [
         "Remote",
         "Consulting",
@@ -2452,8 +2413,257 @@
       ],
       "category": "Technology",
       "experience_level": "Mid",
-      "location_country": "United Kingdom",
-      "location_area": "London",
+      "location_country": "Other / Unspecified",
+      "location_area": "Frankfurt am Main",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Illustrator Internship (remote) for Berlin App Start-up",
+      "company": "LoveLane",
+      "url": "https://www.arbeitnow.com/jobs/companies/lovelane/illustrator-internship-remote-for-berlin-app-start-up-478336",
+      "tags": [
+        "Remote",
+        "Graphic Arts and Communication Design"
+      ],
+      "category": "Other",
+      "experience_level": "Entry",
+      "location_country": "Germany",
+      "location_area": "Berlin",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Senior Business Consultant ServiceNow mit Schwerpunkt CRM/CSM (m/w/d)",
+      "company": "servstio GmbH",
+      "url": "https://www.arbeitnow.com/jobs/companies/servstio-gmbh/senior-business-consultant-servicenow-mit-schwerpunkt-crm-csm-munchen-361710",
+      "tags": [
+        "Remote",
+        "Consulting",
+        "Engineering"
+      ],
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location_country": "Other / Unspecified",
+      "location_area": "München",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "AI Product Builder (m/w/d) Vibe Coding Bootcamp",
+      "company": "Digitale Leute School",
+      "url": "https://www.arbeitnow.com/jobs/companies/digitale-leute-school/ai-product-builder-vibe-coding-bootcamp-munich-66960",
+      "tags": [
+        "Remote",
+        "Software Development"
+      ],
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location_country": "Germany",
+      "location_area": "Munich",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Werkstudent Softwareentwicklung Schwerpunkt Security (m/w/d)",
+      "company": "Meierhofer",
+      "url": "https://www.arbeitnow.com/jobs/companies/meierhofer/remote-werkstudent-softwareentwicklung-schwerpunkt-security-leipzig-349507",
+      "tags": [
+        "München",
+        "Leipzig",
+        "Hannover",
+        "Berlin",
+        "Passau",
+        "Homeoffice",
+        "remote",
+        "IT-Security",
+        "ISO27001",
+        "Cybersecurity",
+        "Software security",
+        "Secure software development",
+        "OWASP",
+        "Kryptographie",
+        "Security engineering",
+        "Informatik",
+        "Computer science",
+        "Software engineering",
+        "Informationssicherheit",
+        "Softwarentwicklung",
+        "Fullstack development",
+        ".NET",
+        "C#",
+        "Medizininformatik student",
+        "Informatik student",
+        "wirtschaftsinformatik student"
+      ],
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location_country": "Other / Unspecified",
+      "location_area": "Leipzig",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Werkstudent Data Science / Business Intelligence (m/w/d)",
+      "company": "Meierhofer",
+      "url": "https://www.arbeitnow.com/jobs/companies/meierhofer/remote-werkstudent-data-science-business-intelligence-leipzig-415779",
+      "tags": [
+        "Data science",
+        "Data analytics",
+        "Business intelligence",
+        "Data engineering",
+        "berlin",
+        "hannover",
+        "leipzig",
+        "passau",
+        "münchen",
+        "remote",
+        "homeoffice",
+        "wirtschaftsinformatik student",
+        "student data engineering",
+        "student medizininformatik",
+        "ehealth",
+        "digital health",
+        "gesundheitsökonomie"
+      ],
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location_country": "Other / Unspecified",
+      "location_area": "Leipzig",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Werkstudent:in Creator Marketing (m/w/d)",
+      "company": "Qstar GmbH",
+      "url": "https://www.arbeitnow.com/jobs/companies/qstar-gmbh/werkstudentin-creator-marketing-hamburg-462210",
+      "tags": [
+        "Remote",
+        "Social Media Manager"
+      ],
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location_country": "Germany",
+      "location_area": "Hamburg",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Junior TeamleiterIn Outbound Telesales (m/w/d) - 100% Homeoffice",
+      "company": "hey contact heroes GmbH",
+      "url": "https://www.arbeitnow.com/jobs/companies/hey-contact-heroes-gmbh/junior-teamleiterin-outbound-telesales-100-homeoffice-hamburg-75905",
+      "tags": [
+        "Remote",
+        "Customer Service"
+      ],
+      "category": "Sales",
+      "experience_level": "Entry",
+      "location_country": "Germany",
+      "location_area": "Hamburg",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Product Manager confirmé H/F - SaaS - Fintech",
+      "company": "N2JSoft",
+      "url": "https://www.arbeitnow.fr/jobs/companies/n2jsoft/remote-product-manager-confirme-h-f-saas-fintech-lyon-122525",
+      "tags": [
+        "Product",
+        "Remote"
+      ],
+      "category": "Operations",
+      "experience_level": "Mid",
+      "location_country": "Other / Unspecified",
+      "location_area": "Poste à distance",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Senior Full-Stack Engineer (Backend + Frontend)",
+      "company": "Soda Data Nv",
+      "url": "https://www.arbeitnow.fr/jobs/companies/soda-data-nv/remote-senior-full-stack-engineer-backend-frontend-france-245440",
+      "tags": [
+        "Computer Software",
+        "Remote"
+      ],
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location_country": "France",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Senior Frontend Engineer (Full-stack)",
+      "company": "Soda Data Nv",
+      "url": "https://www.arbeitnow.fr/jobs/companies/soda-data-nv/remote-senior-frontend-engineer-full-stack-france-447542",
+      "tags": [
+        "Computer Software",
+        "Remote"
+      ],
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location_country": "France",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Arbeitnow",
+      "title": "Senior Backend + Infrastructure Engineer (Platform)",
+      "company": "Soda Data Nv",
+      "url": "https://www.arbeitnow.fr/jobs/companies/soda-data-nv/remote-senior-backend-infrastructure-engineer-platform-france-122771",
+      "tags": [
+        "Computer Software",
+        "Remote"
+      ],
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location_country": "France",
+      "location_area": "Not specified",
       "remote": true,
       "salary_min": null,
       "salary_max": null,
@@ -2499,75 +2709,832 @@
       "date_posted": "2026-09-06"
     },
     {
-      "source": "Arbeitnow",
-      "title": "Développeur fullstack confirmé H/F (C#, .Net, Angular)",
-      "company": "N2JSoft",
-      "url": "https://www.arbeitnow.fr/jobs/companies/n2jsoft/remote-developpeur-fullstack-confirme-h-f-c-net-angular-lyon-461414",
+      "source": "Jobicy",
+      "title": "Care Manager",
+      "company": "Centene Corporation",
+      "url": "https://jobicy.com/jobs/150169-care-manager",
       "tags": [
-        "Dev",
-        "Remote"
+        "Healthcare & Medical",
+        "Full-Time"
       ],
       "category": "Other",
       "experience_level": "Mid",
-      "location_country": "Other / Unspecified",
-      "location_area": "Poste à distance",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Account Executive - Canada - Enterprise",
+      "company": "Elevenlabs",
+      "url": "https://jobicy.com/jobs/148827-account-executive-canada-enterprise",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location_country": "Canada",
+      "location_area": "Not specified",
       "remote": true,
       "salary_min": null,
       "salary_max": null,
       "currency": null,
-      "date_posted": "2026-09-06"
+      "date_posted": "2026-09-08"
     },
     {
-      "source": "Arbeitnow",
-      "title": "SEO Copywriter - French Market",
-      "company": "Workana Premium",
-      "url": "https://www.arbeitnow.fr/jobs/companies/workana-premium/remote-seo-copywriter-french-market-france-129523",
+      "source": "Jobicy",
+      "title": "Marketing Manager",
+      "company": "Canonical",
+      "url": "https://jobicy.com/jobs/148814-marketing-manager",
       "tags": [
-        "Information Services",
-        "Workana B2B LATAM",
-        "Remote"
+        "Marketing & Sales",
+        "Full-Time"
       ],
       "category": "Marketing",
+      "experience_level": "Mid",
+      "location_country": "EMEA",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Customer Success Manager",
+      "company": "Double",
+      "url": "https://jobicy.com/jobs/148785-customer-success-manager-2",
+      "tags": [
+        "Customer Support & Success",
+        "Full-Time"
+      ],
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Manager, Customer Success Managers, EMEA",
+      "company": "GitLab",
+      "url": "https://jobicy.com/jobs/148783-manager-customer-success-managers-emea",
+      "tags": [
+        "Customer Support & Success",
+        "Full-Time"
+      ],
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location_country": "Germany",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Product Marketing Lead, Core Banking",
+      "company": "Monzo",
+      "url": "https://jobicy.com/jobs/145123-product-marketing-lead-core-banking",
+      "tags": [
+        "Marketing & Sales",
+        "Full-Time"
+      ],
+      "category": "Marketing",
+      "experience_level": "Senior",
+      "location_country": "United Kingdom",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "GBP",
+      "date_posted": "2026-09-08"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Member of Technical Staff (GPU Performance Engineer)",
+      "company": "Reka",
+      "url": "https://jobicy.com/jobs/152767-member-of-technical-staff-gpu-performance-engineer",
+      "tags": [
+        "Software Engineering",
+        "Full-Time"
+      ],
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Manager, Field & Channel Marketing - NAMER",
+      "company": "Tines",
+      "url": "https://jobicy.com/jobs/152765-manager-field-channel-marketing-namer",
+      "tags": [
+        "Marketing & Sales",
+        "Full-Time"
+      ],
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Project Specialist",
+      "company": "Appen",
+      "url": "https://jobicy.com/jobs/152764-project-specialist",
+      "tags": [
+        "Project & Program Management",
+        "Full-Time"
+      ],
+      "category": "Other",
+      "experience_level": "Mid",
+      "location_country": "Spain",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Member of Technical Staff (Applied AI)",
+      "company": "Reka",
+      "url": "https://jobicy.com/jobs/152763-member-of-technical-staff-applied-ai",
+      "tags": [
+        "Software Engineering",
+        "Full-Time"
+      ],
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Project Associate, Qualification - Night Shift",
+      "company": "Appen",
+      "url": "https://jobicy.com/jobs/152761-project-associate-qualification-night-shift",
+      "tags": [
+        "Project & Program Management",
+        "Full-Time"
+      ],
+      "category": "Other",
+      "experience_level": "Mid",
+      "location_country": "Philippines",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Member of Technical Staff (ML)",
+      "company": "Reka",
+      "url": "https://jobicy.com/jobs/152760-member-of-technical-staff-ml",
+      "tags": [
+        "Data Science & Analytics",
+        "Full-Time"
+      ],
+      "category": "Other",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Dream Job - Commercial Department",
+      "company": "Who Gives A Crap",
+      "url": "https://jobicy.com/jobs/152759-dream-job-commercial-department",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Account Executive",
+      "company": "Appen",
+      "url": "https://jobicy.com/jobs/152758-account-executive-16",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Data Product Analyst, Corporate",
+      "company": "YipitData",
+      "url": "https://jobicy.com/jobs/152755-data-product-analyst-corporate",
+      "tags": [
+        "Data Science & Analytics",
+        "Full-Time"
+      ],
+      "category": "Other",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Senior Backend Engineer",
+      "company": "Gremlin",
+      "url": "https://jobicy.com/jobs/152754-senior-backend-engineer-4",
+      "tags": [
+        "Software Engineering",
+        "Full-Time"
+      ],
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Regional Sales Manager - Ohio",
+      "company": "BigID",
+      "url": "https://jobicy.com/jobs/152753-regional-sales-manager-ohio",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Senior Backend Engineer (Core Team)",
+      "company": "Playson",
+      "url": "https://jobicy.com/jobs/152752-senior-backend-engineer-core-team",
+      "tags": [
+        "Software Engineering",
+        "Full-Time"
+      ],
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location_country": "Europe",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Data Lead - Central Data Team",
+      "company": "YipitData",
+      "url": "https://jobicy.com/jobs/152751-data-lead-central-data-team",
+      "tags": [
+        "Data Science & Analytics",
+        "Full-Time"
+      ],
+      "category": "Other",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Software Engineer II (Mobile Developer - Android/Kotlin) - Mobile App Growth",
+      "company": "Klaviyo",
+      "url": "https://jobicy.com/jobs/152750-software-engineer-ii-mobile-developer-android-kotlin-mobile-app-growth",
+      "tags": [
+        "Software Engineering",
+        "Full-Time"
+      ],
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Pre/Post Sales Solutions Architect",
+      "company": "Gremlin",
+      "url": "https://jobicy.com/jobs/152749-pre-post-sales-solutions-architect",
+      "tags": [
+        "DevOps & Infrastructure",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Regional Sales Manager - Minnesota",
+      "company": "BigID",
+      "url": "https://jobicy.com/jobs/152748-regional-sales-manager-minnesota",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Senior Product Manager, Profiles Platform",
+      "company": "Klaviyo",
+      "url": "https://jobicy.com/jobs/152747-senior-product-manager-profiles-platform",
+      "tags": [
+        "Product & Operations",
+        "Full-Time"
+      ],
+      "category": "Operations",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Data Scientist, AI/ML",
+      "company": "Gremlin",
+      "url": "https://jobicy.com/jobs/152746-data-scientist-ai-ml",
+      "tags": [
+        "Data Science & Analytics",
+        "Full-Time"
+      ],
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Senior Performance Marketer (Full Remote - Poland)",
+      "company": "EverAI",
+      "url": "https://jobicy.com/jobs/152745-senior-performance-marketer-full-remote-poland",
+      "tags": [
+        "Marketing & Sales",
+        "Full-Time"
+      ],
+      "category": "Marketing",
+      "experience_level": "Senior",
+      "location_country": "Poland",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "EUR",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Product Manager - 4 Day Week + Remote",
+      "company": "Laminar Projects",
+      "url": "https://jobicy.com/jobs/152744-product-manager-4-day-week-remote",
+      "tags": [
+        "Product & Operations",
+        "Full-Time"
+      ],
+      "category": "Operations",
+      "experience_level": "Mid",
+      "location_country": "Portugal",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Senior Performance Marketer (Full Remote - Italy)",
+      "company": "EverAI",
+      "url": "https://jobicy.com/jobs/152743-senior-performance-marketer-full-remote-italy",
+      "tags": [
+        "Marketing & Sales",
+        "Full-Time"
+      ],
+      "category": "Marketing",
+      "experience_level": "Senior",
+      "location_country": "Italy",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "EUR",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Managing Quantity Surveyor (Construction) – 4 Day Work Week",
+      "company": "Laminar Projects",
+      "url": "https://jobicy.com/jobs/152742-managing-quantity-surveyor-construction-4-day-work-week",
+      "tags": [
+        "Customer Support & Success",
+        "Full-Time"
+      ],
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location_country": "United Kingdom",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Senior Performance Marketer (Full Remote - Germany)",
+      "company": "EverAI",
+      "url": "https://jobicy.com/jobs/152741-senior-performance-marketer-full-remote-germany",
+      "tags": [
+        "Marketing & Sales",
+        "Full-Time"
+      ],
+      "category": "Marketing",
+      "experience_level": "Senior",
+      "location_country": "Germany",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "EUR",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Subscription Renewals Representative (Italian/English Speaker)",
+      "company": "Commvault",
+      "url": "https://jobicy.com/jobs/152740-subscription-renewals-representative-italian-english-speaker",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location_country": "Italy",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "EUR",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Staff Decision Scientist (International)",
+      "company": "Life360",
+      "url": "https://jobicy.com/jobs/152739-staff-decision-scientist-international",
+      "tags": [
+        "Data Science & Analytics",
+        "Full-Time"
+      ],
+      "category": "Other",
+      "experience_level": "Senior",
+      "location_country": "United Kingdom",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "GBP",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Commercial Manager (Construction) – 4 Day Work Week",
+      "company": "Laminar Projects",
+      "url": "https://jobicy.com/jobs/152738-commercial-manager-construction-4-day-work-week",
+      "tags": [
+        "Customer Support & Success",
+        "Full-Time"
+      ],
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location_country": "United Kingdom",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Test a Streaming Platform in France",
+      "company": "Testlio",
+      "url": "https://jobicy.com/jobs/152737-test-a-streaming-platform-in-france",
+      "tags": [
+        "QA & Testing",
+        "Contract"
+      ],
+      "category": "Technology",
       "experience_level": "Mid",
       "location_country": "France",
       "location_area": "Not specified",
       "remote": true,
       "salary_min": null,
       "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
+      "currency": "USD",
+      "date_posted": "2026-09-07"
     },
     {
-      "source": "Arbeitnow",
-      "title": "Account Executive Enterprise",
-      "company": "Livestorm",
-      "url": "https://www.arbeitnow.fr/jobs/companies/livestorm/remote-account-executive-enterprise-paris-382462",
+      "source": "Jobicy",
+      "title": "Senior Performance Marketer (Full Remote - France)",
+      "company": "EverAI",
+      "url": "https://jobicy.com/jobs/152736-senior-performance-marketer-full-remote-france",
       "tags": [
-        "Sales",
-        "Remote"
+        "Marketing & Sales",
+        "Full-Time"
+      ],
+      "category": "Marketing",
+      "experience_level": "Senior",
+      "location_country": "France",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "EUR",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Sr Technical Account Manager - West",
+      "company": "Dataiku",
+      "url": "https://jobicy.com/jobs/152735-sr-technical-account-manager-west",
+      "tags": [
+        "Technical Support",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Data Classification Associate, Corporate",
+      "company": "YipitData",
+      "url": "https://jobicy.com/jobs/152734-data-classification-associate-corporate",
+      "tags": [
+        "Data Science & Analytics",
+        "Full-Time"
+      ],
+      "category": "Other",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Partner Enablement Manager",
+      "company": "Fleetio",
+      "url": "https://jobicy.com/jobs/152733-partner-enablement-manager-2",
+      "tags": [
+        "Project & Program Management",
+        "Full-Time"
       ],
       "category": "Sales",
       "experience_level": "Mid",
-      "location_country": "Remote",
+      "location_country": "United States",
       "location_area": "Not specified",
       "remote": true,
       "salary_min": null,
       "salary_max": null,
       "currency": null,
-      "date_posted": "2026-09-06"
+      "date_posted": "2026-09-07"
     },
     {
-      "source": "Arbeitnow",
-      "title": "Chief of Staff / Business Ops",
-      "company": "Searoutes",
-      "url": "https://www.arbeitnow.fr/jobs/companies/searoutes/remote-chief-of-staff-business-ops-france-115880",
+      "source": "Jobicy",
+      "title": "Senior Product Manager, Catalog",
+      "company": "SeatGeek",
+      "url": "https://jobicy.com/jobs/152732-senior-product-manager-catalog",
       "tags": [
-        "General Business",
-        "Logistics and Supply Chain",
-        "G&A",
-        "Remote"
+        "Product & Operations",
+        "Full-Time"
       ],
-      "category": "Other",
+      "category": "Operations",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Sr Technical Account Manager - East",
+      "company": "Dataiku",
+      "url": "https://jobicy.com/jobs/152731-sr-technical-account-manager-east",
+      "tags": [
+        "Technical Support",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Enterprise Sales Executive",
+      "company": "Datadog",
+      "url": "https://jobicy.com/jobs/152730-enterprise-sales-executive",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Client Strategy Manager - Corporate Brands & Retail",
+      "company": "YipitData",
+      "url": "https://jobicy.com/jobs/152729-client-strategy-manager-corporate-brands-retail",
+      "tags": [
+        "Customer Support & Success",
+        "Full-Time"
+      ],
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Partner Development Manager",
+      "company": "Fleetio",
+      "url": "https://jobicy.com/jobs/152728-partner-development-manager",
+      "tags": [
+        "Business Development",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Senior Machine Learning Engineer",
+      "company": "SeatGeek",
+      "url": "https://jobicy.com/jobs/152727-senior-machine-learning-engineer-2",
+      "tags": [
+        "Data Science & Analytics",
+        "Full-Time"
+      ],
+      "category": "Technology",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Senior Infrastructure Engineer",
+      "company": "Dataiku",
+      "url": "https://jobicy.com/jobs/152726-senior-infrastructure-engineer-2",
+      "tags": [
+        "DevOps & Infrastructure",
+        "Full-Time"
+      ],
+      "category": "Technology",
       "experience_level": "Senior",
       "location_country": "France",
       "location_area": "Not specified",
@@ -2575,7 +3542,406 @@
       "salary_min": null,
       "salary_max": null,
       "currency": null,
-      "date_posted": "2026-09-06"
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Enterprise Sales Engineer - Rockies",
+      "company": "Datadog",
+      "url": "https://jobicy.com/jobs/152725-enterprise-sales-engineer-rockies",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Client Strategy Manager",
+      "company": "YipitData",
+      "url": "https://jobicy.com/jobs/152724-client-strategy-manager",
+      "tags": [
+        "Customer Support & Success",
+        "Full-Time"
+      ],
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Outbound Sales Development Representative",
+      "company": "Fleetio",
+      "url": "https://jobicy.com/jobs/152723-outbound-sales-development-representative",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Senior Data Analyst, Risk Analytics",
+      "company": "SeatGeek",
+      "url": "https://jobicy.com/jobs/152722-senior-data-analyst-risk-analytics",
+      "tags": [
+        "Data Science & Analytics",
+        "Full-Time"
+      ],
+      "category": "Other",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Senior Account Executive, Public Sector Germany",
+      "company": "Dataiku",
+      "url": "https://jobicy.com/jobs/152721-senior-account-executive-public-sector-germany",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location_country": "Germany",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Enterprise Sales Engineer - FED",
+      "company": "Datadog",
+      "url": "https://jobicy.com/jobs/152720-enterprise-sales-engineer-fed",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Associate Director of Product Development",
+      "company": "YipitData",
+      "url": "https://jobicy.com/jobs/152719-associate-director-of-product-development",
+      "tags": [
+        "Product & Operations",
+        "Full-Time"
+      ],
+      "category": "Operations",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Outbound Sales Development Manager",
+      "company": "Fleetio",
+      "url": "https://jobicy.com/jobs/152718-outbound-sales-development-manager",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Paid Social & Programmatic Analyst",
+      "company": "SeatGeek",
+      "url": "https://jobicy.com/jobs/152717-paid-social-programmatic-analyst",
+      "tags": [
+        "Marketing & Sales",
+        "Full-Time"
+      ],
+      "category": "Marketing",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Product Manager – Business Applications",
+      "company": "Dataiku",
+      "url": "https://jobicy.com/jobs/152716-product-manager-business-applications",
+      "tags": [
+        "Product & Operations",
+        "Full-Time"
+      ],
+      "category": "Operations",
+      "experience_level": "Mid",
+      "location_country": "France",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Director, Security Channels (North America)",
+      "company": "Datadog",
+      "url": "https://jobicy.com/jobs/152715-director-security-channels-north-america",
+      "tags": [
+        "Business Development",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Associate Commercial Counsel",
+      "company": "YipitData",
+      "url": "https://jobicy.com/jobs/152714-associate-commercial-counsel",
+      "tags": [
+        "Legal & Compliance",
+        "Full-Time"
+      ],
+      "category": "Other",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Global Controller",
+      "company": "Fleetio",
+      "url": "https://jobicy.com/jobs/152713-global-controller",
+      "tags": [
+        "Finance & Accounting",
+        "Full-Time"
+      ],
+      "category": "Accounting & Finance",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Engineering Manager, SupportX",
+      "company": "SeatGeek",
+      "url": "https://jobicy.com/jobs/152712-engineering-manager-supportx",
+      "tags": [
+        "Software Engineering",
+        "Full-Time"
+      ],
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Head of Design",
+      "company": "Dataiku",
+      "url": "https://jobicy.com/jobs/152711-head-of-design",
+      "tags": [
+        "Creative & Design",
+        "Full-Time"
+      ],
+      "category": "Other",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Director, Enterprise Sales Engineering - US Central",
+      "company": "Datadog",
+      "url": "https://jobicy.com/jobs/152710-director-enterprise-sales-engineering-us-central",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Engineering Manager, Payments",
+      "company": "Fleetio",
+      "url": "https://jobicy.com/jobs/152709-engineering-manager-payments",
+      "tags": [
+        "Software Engineering",
+        "Full-Time"
+      ],
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Client Success Manager",
+      "company": "SeatGeek",
+      "url": "https://jobicy.com/jobs/152708-client-success-manager-2",
+      "tags": [
+        "Customer Support & Success",
+        "Full-Time"
+      ],
+      "category": "Customer Support",
+      "experience_level": "Mid",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Fullstack Software Engineer - Core",
+      "company": "Dataiku",
+      "url": "https://jobicy.com/jobs/152707-fullstack-software-engineer-core",
+      "tags": [
+        "Software Engineering",
+        "Full-Time"
+      ],
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location_country": "United Kingdom",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": null,
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Director, Enterprise Sales",
+      "company": "Datadog",
+      "url": "https://jobicy.com/jobs/152706-director-enterprise-sales-3",
+      "tags": [
+        "Sales",
+        "Full-Time"
+      ],
+      "category": "Sales",
+      "experience_level": "Senior",
+      "location_country": "United States",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "USD",
+      "date_posted": "2026-09-07"
+    },
+    {
+      "source": "Jobicy",
+      "title": "Product Engineer (Full Stack)",
+      "company": "Maze",
+      "url": "https://jobicy.com/jobs/151461-product-engineer-full-stack",
+      "tags": [
+        "Software Engineering",
+        "Full-Time"
+      ],
+      "category": "Technology",
+      "experience_level": "Mid",
+      "location_country": "Europe",
+      "location_area": "Not specified",
+      "remote": true,
+      "salary_min": null,
+      "salary_max": null,
+      "currency": "EUR",
+      "date_posted": "2026-09-07"
     },
     {
       "source": "Jobicy",
@@ -3222,1241 +4588,6 @@
       "salary_max": null,
       "currency": null,
       "date_posted": "2026-09-07"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Sr. Customer Success Engineer",
-      "company": "Veeam Software",
-      "url": "https://jobicy.com/jobs/150280-sr-customer-success-engineer",
-      "tags": [
-        "Technical Support",
-        "Full-Time"
-      ],
-      "category": "Customer Support",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-07"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Customer Enablement Manager",
-      "company": "Mural",
-      "url": "https://jobicy.com/jobs/150283-customer-enablement-manager",
-      "tags": [
-        "Customer Support & Success",
-        "Full-Time"
-      ],
-      "category": "Customer Support",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-07"
-    },
-    {
-      "source": "Jobicy",
-      "title": "FBS Product Analyst Customer Retention",
-      "company": "Capgemini",
-      "url": "https://jobicy.com/jobs/150290-fbs-product-analyst-customer-retention",
-      "tags": [
-        "Data Science & Analytics",
-        "Full-Time"
-      ],
-      "category": "Other",
-      "experience_level": "Mid",
-      "location_country": "Mexico",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-07"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Customer Success Engineer with Portuguese",
-      "company": "Infotree Global Solutions",
-      "url": "https://jobicy.com/jobs/150286-customer-success-engineer-with-portuguese",
-      "tags": [
-        "Technical Support",
-        "Full-Time"
-      ],
-      "category": "Customer Support",
-      "experience_level": "Mid",
-      "location_country": "Portugal",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-07"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Manager, Material Scientist",
-      "company": "hims &#038; hers",
-      "url": "https://jobicy.com/jobs/152692-manager-material-scientist",
-      "tags": [
-        "Healthcare & Medical",
-        "Full-Time"
-      ],
-      "category": "Other",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Incident Manager",
-      "company": "Lambda",
-      "url": "https://jobicy.com/jobs/152690-senior-incident-manager",
-      "tags": [
-        "DevOps & Infrastructure",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Manager, Data Strategy & Analytics",
-      "company": "Happy Money",
-      "url": "https://jobicy.com/jobs/152689-senior-manager-data-strategy-analytics",
-      "tags": [
-        "Data Science & Analytics",
-        "Full-Time"
-      ],
-      "category": "Other",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "VP, Engineering & Facilities",
-      "company": "hims &#038; hers",
-      "url": "https://jobicy.com/jobs/152688-vp-engineering-facilities",
-      "tags": [
-        "Product & Operations",
-        "Full-Time"
-      ],
-      "category": "Operations",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Account CTO",
-      "company": "Lambda",
-      "url": "https://jobicy.com/jobs/152686-account-cto",
-      "tags": [
-        "Sales",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Collections Specialist",
-      "company": "Happy Money",
-      "url": "https://jobicy.com/jobs/152685-senior-collections-specialist",
-      "tags": [
-        "Finance & Accounting",
-        "Full-Time"
-      ],
-      "category": "Accounting & Finance",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Field Sales Consultant (self-employed) - Sofia",
-      "company": "SumUp",
-      "url": "https://jobicy.com/jobs/152684-field-sales-consultant-self-employed-sofia",
-      "tags": [
-        "Sales",
-        "Contract"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "Bulgaria",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Analyst, Care Operations",
-      "company": "hims &#038; hers",
-      "url": "https://jobicy.com/jobs/152683-senior-analyst-care-operations",
-      "tags": [
-        "Data Science & Analytics",
-        "Full-Time"
-      ],
-      "category": "Operations",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Product Owner, Card Programs",
-      "company": "Flex",
-      "url": "https://jobicy.com/jobs/152682-product-owner-card-programs",
-      "tags": [
-        "Product & Operations",
-        "Full-Time"
-      ],
-      "category": "Operations",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Costa Rica",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Territory Account Manager",
-      "company": "Tenable",
-      "url": "https://jobicy.com/jobs/152681-territory-account-manager",
-      "tags": [
-        "Sales",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "Mexico",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Forward Deployed Engineer",
-      "company": "Tailscale",
-      "url": "https://jobicy.com/jobs/152680-forward-deployed-engineer-2",
-      "tags": [
-        "Technical Support",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Mid",
-      "location_country": "Canada",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "CAD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Product Owner, Accounting Stack (entire Business Suite)",
-      "company": "Flex",
-      "url": "https://jobicy.com/jobs/152679-product-owner-accounting-stack-entire-business-suite",
-      "tags": [
-        "Product & Operations",
-        "Full-Time"
-      ],
-      "category": "Accounting & Finance",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Technical Support Engineer (Remote/West Coast)",
-      "company": "Tenable",
-      "url": "https://jobicy.com/jobs/152678-technical-support-engineer-remote-west-coast",
-      "tags": [
-        "Technical Support",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Director, APAC Go-to-Market",
-      "company": "Tailscale",
-      "url": "https://jobicy.com/jobs/152677-director-apac-go-to-market",
-      "tags": [
-        "Sales",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Senior",
-      "location_country": "Singapore",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "People Ops Manager",
-      "company": "Flex",
-      "url": "https://jobicy.com/jobs/152676-people-ops-manager",
-      "tags": [
-        "HR & Recruiting",
-        "Full-Time"
-      ],
-      "category": "Human Resources",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Software Engineer - Java/Microservices",
-      "company": "Tenable",
-      "url": "https://jobicy.com/jobs/152675-senior-software-engineer-java-microservices",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Lifecycle Marketing Operations Manager",
-      "company": "Flex",
-      "url": "https://jobicy.com/jobs/152674-lifecycle-marketing-operations-manager",
-      "tags": [
-        "Marketing & Sales",
-        "Full-Time"
-      ],
-      "category": "Marketing",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Security Consultant",
-      "company": "Tenable",
-      "url": "https://jobicy.com/jobs/152673-senior-security-consultant",
-      "tags": [
-        "Cybersecurity",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "Netherlands",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "EUR",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Customer Support Engineer (Tier 2)",
-      "company": "Tailscale",
-      "url": "https://jobicy.com/jobs/152672-customer-support-engineer-tier-2",
-      "tags": [
-        "Technical Support",
-        "Full-Time"
-      ],
-      "category": "Customer Support",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Head of Growth Marketing",
-      "company": "Flex",
-      "url": "https://jobicy.com/jobs/152671-head-of-growth-marketing-2",
-      "tags": [
-        "Marketing & Sales",
-        "Full-Time"
-      ],
-      "category": "Marketing",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Channel Account Manager",
-      "company": "Tenable",
-      "url": "https://jobicy.com/jobs/152670-senior-channel-account-manager",
-      "tags": [
-        "Sales",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Senior",
-      "location_country": "Germany",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "EUR",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Head of Financial Crimes",
-      "company": "Flex",
-      "url": "https://jobicy.com/jobs/152669-head-of-financial-crimes",
-      "tags": [
-        "Legal & Compliance",
-        "Full-Time"
-      ],
-      "category": "Other",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Security Sales Engineer - SLED/Public Sector",
-      "company": "Tenable",
-      "url": "https://jobicy.com/jobs/152668-security-sales-engineer-sled-public-sector",
-      "tags": [
-        "Cybersecurity",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Salesforce Developer (US-Remote)",
-      "company": "Tenable",
-      "url": "https://jobicy.com/jobs/152666-salesforce-developer-us-remote",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Financial Crime Analyst",
-      "company": "Flex",
-      "url": "https://jobicy.com/jobs/152667-financial-crime-analyst",
-      "tags": [
-        "Legal & Compliance",
-        "Full-Time"
-      ],
-      "category": "Other",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Principal Solutions Architect (AWS Technical Alliances)",
-      "company": "Tenable",
-      "url": "https://jobicy.com/jobs/152664-principal-solutions-architect-aws-technical-alliances",
-      "tags": [
-        "Cybersecurity",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Strategic Account Executive",
-      "company": "Upside",
-      "url": "https://jobicy.com/jobs/152663-senior-strategic-account-executive",
-      "tags": [
-        "Sales",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Customer Reliability Engineer",
-      "company": "Tailscale",
-      "url": "https://jobicy.com/jobs/152662-customer-reliability-engineer",
-      "tags": [
-        "Technical Support",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Business Development Representative (BDR) Manager",
-      "company": "Flex",
-      "url": "https://jobicy.com/jobs/152661-business-development-representative-bdr-manager",
-      "tags": [
-        "Business Development",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Strategic Account Manager",
-      "company": "Upside",
-      "url": "https://jobicy.com/jobs/152660-strategic-account-manager-3",
-      "tags": [
-        "Customer Support & Success",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Business Development Representative",
-      "company": "Flex",
-      "url": "https://jobicy.com/jobs/152658-business-development-representative-13",
-      "tags": [
-        "Business Development",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Staff Application Security Engineer",
-      "company": "Upside",
-      "url": "https://jobicy.com/jobs/152657-staff-application-security-engineer",
-      "tags": [
-        "Cybersecurity",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Director of Product Marketing - Cloud & OT Security",
-      "company": "Tenable",
-      "url": "https://jobicy.com/jobs/152656-director-of-product-marketing-cloud-ot-security",
-      "tags": [
-        "Marketing & Sales",
-        "Full-Time"
-      ],
-      "category": "Marketing",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Account Manager",
-      "company": "Flex",
-      "url": "https://jobicy.com/jobs/152655-account-manager-4",
-      "tags": [
-        "Customer Support & Success",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Principal Product Marketing Manager",
-      "company": "Upside",
-      "url": "https://jobicy.com/jobs/152654-principal-product-marketing-manager",
-      "tags": [
-        "Marketing & Sales",
-        "Full-Time"
-      ],
-      "category": "Marketing",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Director, Content Marketing",
-      "company": "Tenable",
-      "url": "https://jobicy.com/jobs/152653-director-content-marketing",
-      "tags": [
-        "Content & Editorial",
-        "Full-Time"
-      ],
-      "category": "Marketing",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Automations Engineer, Post Sales Systems",
-      "company": "ClickUp",
-      "url": "https://jobicy.com/jobs/152650-automations-engineer-post-sales-systems",
-      "tags": [
-        "Technical Support",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Customer Success Manager, Asia",
-      "company": "Instructure",
-      "url": "https://jobicy.com/jobs/152649-customer-success-manager-asia",
-      "tags": [
-        "Customer Support & Success",
-        "Full-Time"
-      ],
-      "category": "Customer Support",
-      "experience_level": "Mid",
-      "location_country": "Philippines",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior AI Engineer, Voice Platform",
-      "company": "ClickUp",
-      "url": "https://jobicy.com/jobs/152648-senior-ai-engineer-voice-platform",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Technical Account Manager - Strategic Services",
-      "company": "ClickUp",
-      "url": "https://jobicy.com/jobs/152647-senior-technical-account-manager-strategic-services",
-      "tags": [
-        "Customer Support & Success",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Marketing Operations Coordinator",
-      "company": "Instructure",
-      "url": "https://jobicy.com/jobs/152646-marketing-operations-coordinator",
-      "tags": [
-        "Marketing & Sales",
-        "Full-Time"
-      ],
-      "category": "Marketing",
-      "experience_level": "Mid",
-      "location_country": "Mexico",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "MXN",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Staff Product Manager",
-      "company": "ClickUp",
-      "url": "https://jobicy.com/jobs/152645-staff-product-manager-2",
-      "tags": [
-        "Product & Operations",
-        "Full-Time"
-      ],
-      "category": "Operations",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Staff Frontend Engineer",
-      "company": "ClickUp",
-      "url": "https://jobicy.com/jobs/152644-staff-frontend-engineer",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "Ukraine",
-      "location_area": "Czechia",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Account Executive - Parchment, K12",
-      "company": "Instructure",
-      "url": "https://jobicy.com/jobs/152643-senior-account-executive-parchment-k12",
-      "tags": [
-        "Sales",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Frontend Engineer",
-      "company": "ClickUp",
-      "url": "https://jobicy.com/jobs/152642-senior-frontend-engineer-2",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "Ukraine",
-      "location_area": "Czechia",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Sr FP&A Manager - Revenue & SaaS Metrics",
-      "company": "Instructure",
-      "url": "https://jobicy.com/jobs/152641-sr-fpa-manager-revenue-saas-metrics",
-      "tags": [
-        "Finance & Accounting",
-        "Full-Time"
-      ],
-      "category": "Accounting & Finance",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Staff AI Engineer - AI Product",
-      "company": "ClickUp",
-      "url": "https://jobicy.com/jobs/152640-staff-ai-engineer-ai-product",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "VP, Partner Ecosystem",
-      "company": "Instructure",
-      "url": "https://jobicy.com/jobs/152639-vp-partner-ecosystem",
-      "tags": [
-        "Business Development",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Staff AI Engineer - AI Platform",
-      "company": "ClickUp",
-      "url": "https://jobicy.com/jobs/152638-staff-ai-engineer-ai-platform",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Platform Architect",
-      "company": "Instructure",
-      "url": "https://jobicy.com/jobs/152637-platform-architect",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Staff AI Engineer - Multi-Agent Frameworks",
-      "company": "ClickUp",
-      "url": "https://jobicy.com/jobs/152636-staff-ai-engineer-multi-agent-frameworks",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Builder, Instructure Foundry",
-      "company": "Instructure",
-      "url": "https://jobicy.com/jobs/152635-builder-instructure-foundry",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior AI Engineer - AI Product",
-      "company": "ClickUp",
-      "url": "https://jobicy.com/jobs/152634-senior-ai-engineer-ai-product",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Strategic Account Executive - N.A.",
-      "company": "UpBound",
-      "url": "https://jobicy.com/jobs/152633-strategic-account-executive-n-a",
-      "tags": [
-        "Sales",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Founder, Instructure Foundry",
-      "company": "Instructure",
-      "url": "https://jobicy.com/jobs/152632-founder-instructure-foundry",
-      "tags": [
-        "Product & Operations",
-        "Full-Time"
-      ],
-      "category": "Operations",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior AI Engineer - AI Platform",
-      "company": "ClickUp",
-      "url": "https://jobicy.com/jobs/152631-senior-ai-engineer-ai-platform",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Software Engineer",
-      "company": "UpBound",
-      "url": "https://jobicy.com/jobs/152630-senior-software-engineer-7",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Vice President of Sales, Higher Education",
-      "company": "Instructure",
-      "url": "https://jobicy.com/jobs/152629-vice-president-of-sales-higher-education",
-      "tags": [
-        "Sales",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Territory Manager, Lexington, KY",
-      "company": "Juul Labs",
-      "url": "https://jobicy.com/jobs/152628-territory-manager-lexington-ky",
-      "tags": [
-        "Sales",
-        "Full-Time"
-      ],
-      "category": "Sales",
-      "experience_level": "Mid",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior AI Engineer - Multi-Agent Frameworks",
-      "company": "ClickUp",
-      "url": "https://jobicy.com/jobs/152627-senior-ai-engineer-multi-agent-frameworks",
-      "tags": [
-        "Software Engineering",
-        "Full-Time"
-      ],
-      "category": "Technology",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": "USD",
-      "date_posted": "2026-09-06"
-    },
-    {
-      "source": "Jobicy",
-      "title": "Senior Product Marketing Manager",
-      "company": "UpBound",
-      "url": "https://jobicy.com/jobs/152626-senior-product-marketing-manager-4",
-      "tags": [
-        "Marketing & Sales",
-        "Full-Time"
-      ],
-      "category": "Marketing",
-      "experience_level": "Senior",
-      "location_country": "United States",
-      "location_area": "Not specified",
-      "remote": true,
-      "salary_min": null,
-      "salary_max": null,
-      "currency": null,
-      "date_posted": "2026-09-06"
     }
   ]
 }
